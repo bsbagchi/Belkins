@@ -4,7 +4,7 @@
 
 :root {
   --background: #f5f5f5;
-
+  --award: #7a7a7a;
 }
 
 
@@ -15,6 +15,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
 /* Apply the animation to the element */
 .element {
