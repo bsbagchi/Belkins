@@ -13,12 +13,12 @@ export default function Navbar() {
       <nav className='flex gap-10'>
         <Link href={'/'}><Image className='w-24' src={Logo} alt='' /> </Link>
         <ul className=' items-center gap-10 hidden  min-[1070px]:flex'>
-            <Link className='hover:text-orange-600' href={'#'}><li>What we do</li></Link>
-            <Link className='hover:text-orange-600' href={'#'}><li>Solution</li></Link>
-            <Link className='hover:text-orange-600' href={'#'}><li>Customer Success</li></Link>
-            <Link className='hover:text-orange-600' href={'#'}><li>Learn</li></Link>
-            <Link className='hover:text-orange-600' href={'#'}><li>Company</li></Link>
-            <Link className='hover:text-orange-600' href={'#'}><li>Pricing</li></Link>
+            <Link className='hover:text-orange-600' href={'#1'}><li>HOME</li></Link>
+            <Link className='hover:text-orange-600' href={'#2'}><li>ABOUT US</li></Link>
+            <Link className='hover:text-orange-600' href={'#3'}><li>CASE STUDIES</li></Link>
+            <Link className='hover:text-orange-600' href={'#4'}><li>INDUSTRIES</li></Link>
+            <Link className='hover:text-orange-600' href={'#5'}><li>WHY CLOSERGOD</li></Link>
+            <Link className='hover:text-orange-600' href={'#6'}><li>CONTACT US</li></Link>
         </ul>
         
       </nav>

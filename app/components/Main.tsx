@@ -33,7 +33,7 @@ export default function Main() {
     <div className=' '>
     <div id='1' className='bg-[--background] relative  py-20 -z-10 px-[5%] '>
     
-    <div className=" absolute element -top-2 left-10  lg:-top-10 lg:left-32 w-16 h-16 lg:w-44 lg:h-44 bg-gradient-to-br from-orange-500/20 to-orange-600 shadow-orange-600 shadow-md rounded-full " />
+    <div className="  absolute element -top-2 left-10  lg:-top-10 lg:left-32 w-16 h-16 lg:w-44 lg:h-44 bg-gradient-to-br from-orange-500/20 to-orange-600 shadow-orange-600 shadow-md rounded-full " />
     <div className=" absolute -top-16 -left-24 lg:-top-32 lg:-left-52 w-40 h-40 lg:w-96 lg:h-96 bg-white rounded-full opacity-65 shadow-md" />
     <div className="max-md:hidden absolute  -top-40 right-0 w-64 h-64 lg:w-72 lg:h-72 b bg-gradient-to-br from-black to-white border-2 border-white rounded-full opacity-10 shadow-md" />
     <div className="relative text-center space-y-8">
@@ -58,7 +58,7 @@ export default function Main() {
           
     
     </div>
-    <div className=' w-full z-0 relative -mt-20 flex justify-center'>
+    <div className='  w-full z-0 relative -mt-20 flex justify-center'>
           <button className="bg-orange-600 max-sm:w-full  max-sm:mx-2  hover:bg-opacity-80 text-white rounded-md text-lg font-semibold px-10 py-4">
               Get a quote
             </button>
