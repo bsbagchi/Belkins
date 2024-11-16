@@ -37,7 +37,7 @@ export default function Crousel() {
   
 
   return (
-    <div>
+    <div id='3'>
         <div className="flex  justify-between px-[5%]">
           <div>
             <h1 className="text-3xl md:text-[3.5rem] font-semibold leading-tight">How companies succeed with us</h1>

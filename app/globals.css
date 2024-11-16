@@ -31,6 +31,31 @@ body {
   animation: bounce 20s infinite; /* Increase the duration to make it slower */
 }
 
+/* scroll bar */
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+  
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ea580c; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
+
 /* Define the bounce keyframes */
 @keyframes bounce {
   0% {

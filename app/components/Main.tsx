@@ -22,6 +22,7 @@ import copywriter from '../../public/meet/content.svg';
 import profile from '../../public/meet/profile.jpg';
 import video from '../../public/meet/video.jpg';
 import rightarrow from '../../public/icons/chevron.svg';
+import Lead from './Lead';
 
 export default function Main() {
  
@@ -30,7 +31,7 @@ export default function Main() {
   
   return (
     <div className=' '>
-    <div className='bg-[--background] relative  py-20 -z-10 px-[5%] '>
+    <div id='1' className='bg-[--background] relative  py-20 -z-10 px-[5%] '>
     
     <div className=" absolute element -top-2 left-10  lg:-top-10 lg:left-32 w-16 h-16 lg:w-44 lg:h-44 bg-gradient-to-br from-orange-500/20 to-orange-600 shadow-orange-600 shadow-md rounded-full " />
     <div className=" absolute -top-16 -left-24 lg:-top-32 lg:-left-52 w-40 h-40 lg:w-96 lg:h-96 bg-white rounded-full opacity-65 shadow-md" />
@@ -66,86 +67,18 @@ export default function Main() {
 
           {/* Marque */}
           <Marque/>
-
-
-
-
-
-         {/* Lead generation */}
-          <div className='bg-[--background]'>
-          <div className='pt-10 md:pt-20 text-center '>
-            <h1 className='font-bold max-sm:text-3xl text-[3.5rem] leading-[65px] '>Lead generation<br></br>
-            services that win clients</h1>
-            <p className='md:text-lg  opacity-70 py-2'>You can put all your energy into scaling your business while we set up a <br className='max-sm:hidden' /> consistent stream of vetted business leads to your pipeline.</p>
-          </div>
-          <div className='flex flex-wrap gap-x-5 gap-y-8 justify-center py-10 md:py-20'>
-          <div className="relative w-[375px]  h-[320px] max-sm:w-[320px]  max-sm:h-[270px] group  hover:-top-5 transform ease-in-out justify-center rounded-2xl p-4 bg-white shadow-md">
-            <h1 className='font-semibold text-[2rem] max-sm:text-[1.5rem] leading-10 head transition-all delay-100 duration-150 group-hover:text-orange-600'>Appointment Setting</h1>
-            <p className='text-[1.5rem] max-sm:text-[1.125rem] pt-4 max-sm:pt-1 leading-9 max-sm:leading-7  opacity-50'>All-inclusive B2B appointment booking with high  lead-to-deal potential. Start getting new opportunities within weeks.</p>
-            <div className='h-14 w-14 transition-all delay-100 duration-150 absolute bottom-4 flex items-center justify-center rounded-full border-2 group-hover:border-orange-600 group-hover:bg-orange-600'>
-            <svg className='rotate-[-40deg] stroke-black h-8 group-hover:stroke-white' viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" id="use-href-target"><path d="M5 16H26M19 8L27 16L19 24" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-            </div>
-          </div>
-
-
-          <div className="relative w-[375px]  h-[320px] max-sm:w-[320px]  max-sm:h-[270px] group  hover:-top-5 transform ease-in-out justify-center rounded-2xl p-4 bg-white shadow-md">
-            <h1 className='font-semibold text-[2rem] max-sm:text-[1.5rem] leading-10 head transition-all delay-100 duration-150 group-hover:text-orange-600'>Appointment Setting</h1>
-            <p className='text-[1.5rem] max-sm:text-[1.125rem] pt-4 max-sm:pt-1 leading-9 max-sm:leading-7  opacity-50'>All-inclusive B2B appointment booking with high  lead-to-deal potential. Start getting new opportunities within weeks.</p>
-            <div className='h-14 w-14 transition-all delay-100 duration-150 absolute bottom-4 flex items-center justify-center rounded-full border-2 group-hover:border-orange-600 group-hover:bg-orange-600'>
-            <svg className='rotate-[-40deg] stroke-black h-8 group-hover:stroke-white' viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" id="use-href-target"><path d="M5 16H26M19 8L27 16L19 24" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-            </div>
-          </div>
-
-
-
-          <div className="relative w-[375px]  h-[320px] max-sm:w-[320px]  max-sm:h-[270px] group  hover:-top-5 transform ease-in-out justify-center rounded-2xl p-4 bg-white shadow-md">
-            <h1 className='font-semibold text-[2rem] max-sm:text-[1.5rem] leading-10 head transition-all delay-100 duration-150 group-hover:text-orange-600'>Appointment Setting</h1>
-            <p className='text-[1.5rem] max-sm:text-[1.125rem] pt-4 max-sm:pt-1 leading-9 max-sm:leading-7  opacity-50'>All-inclusive B2B appointment booking with high  lead-to-deal potential. Start getting new opportunities within weeks.</p>
-            <div className='h-14 w-14 transition-all delay-100 duration-150 absolute bottom-4 flex items-center justify-center rounded-full border-2 group-hover:border-orange-600 group-hover:bg-orange-600'>
-            <svg className='rotate-[-40deg] stroke-black h-8 group-hover:stroke-white' viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" id="use-href-target"><path d="M5 16H26M19 8L27 16L19 24" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-            </div>
-          </div>
-
-
-
-          <div className="relative w-[375px]  h-[320px] max-sm:w-[320px]  max-sm:h-[270px] group  hover:-top-5 transform ease-in-out justify-center rounded-2xl p-4 bg-white shadow-md">
-            <h1 className='font-semibold text-[2rem] max-sm:text-[1.5rem] leading-10 head transition-all delay-100 duration-150 group-hover:text-orange-600'>Appointment Setting</h1>
-            <p className='text-[1.5rem] max-sm:text-[1.125rem] pt-4 max-sm:pt-1 leading-9 max-sm:leading-7  opacity-50'>All-inclusive B2B appointment booking with high  lead-to-deal potential. Start getting new opportunities within weeks.</p>
-            <div className='h-14 w-14 transition-all delay-100 duration-150 absolute bottom-4 flex items-center justify-center rounded-full border-2 group-hover:border-orange-600 group-hover:bg-orange-600'>
-            <svg className='rotate-[-40deg] stroke-black h-8 group-hover:stroke-white' viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" id="use-href-target"><path d="M5 16H26M19 8L27 16L19 24" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-            </div>
-          </div>
-
-
-
-
-          <div className="relative w-[375px]  h-[320px] max-sm:w-[320px]  max-sm:h-[270px] group  hover:-top-5 transform ease-in-out justify-center rounded-2xl p-4 bg-white shadow-md">
-            <h1 className='font-semibold text-[2rem] max-sm:text-[1.5rem] leading-10 head transition-all delay-100 duration-150 group-hover:text-orange-600'>Appointment Setting</h1>
-            <p className='text-[1.5rem] max-sm:text-[1.125rem] pt-4 max-sm:pt-1 leading-9 max-sm:leading-7  opacity-50'>All-inclusive B2B appointment booking with high  lead-to-deal potential. Start getting new opportunities within weeks.</p>
-            <div className='h-14 w-14 transition-all delay-100 duration-150 absolute bottom-4 flex items-center justify-center rounded-full border-2 group-hover:border-orange-600 group-hover:bg-orange-600'>
-            <svg className='rotate-[-40deg] stroke-black h-8 group-hover:stroke-white' viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" id="use-href-target"><path d="M5 16H26M19 8L27 16L19 24" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-            </div>
-          </div>
-
-
-
-          <div className="relative w-[375px]  h-[320px] max-sm:w-[320px]  max-sm:h-[270px] group  hover:-top-5 transform ease-in-out justify-center rounded-2xl p-4 bg-white shadow-md">
-            <h1 className='font-semibold text-[2rem] max-sm:text-[1.5rem] leading-10 head transition-all delay-100 duration-150 group-hover:text-orange-600'>Appointment Setting</h1>
-            <p className='text-[1.5rem] max-sm:text-[1.125rem] pt-4 max-sm:pt-1 leading-9 max-sm:leading-7  opacity-50'>All-inclusive B2B appointment booking with high  lead-to-deal potential. Start getting new opportunities within weeks.</p>
-            <div className='h-14 w-14 transition-all delay-100 duration-150 absolute bottom-4 flex items-center justify-center rounded-full border-2 group-hover:border-orange-600 group-hover:bg-orange-600'>
-            <svg className='rotate-[-40deg] stroke-black h-8 group-hover:stroke-white' viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" id="use-href-target"><path d="M5 16H26M19 8L27 16L19 24" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-            </div>
-          </div>
-
           
-          </div>
-          
-          </div>
+          {/* Lead Generation */}
+        
+          <Lead/>
 
           {/* Companies succeed with us */}
           
           {/* Crousel */}
-          <Crousel/>
+          
+            <Crousel/>
+        
+          
 
           
          {/* award wining */}
@@ -206,18 +139,18 @@ export default function Main() {
          </div>
           
 {/* You Industry  */}
-<div className='md:mx-[5%] mx-2 p-[5%] rounded-3xl  md:rounded-[3rem] md:my-10 bg-current opacity-85'>
+<div id='4' className='md:mx-[7%] mx-2 p-[5%] rounded-3xl  md:rounded-[3rem] md:my-10 bg-current opacity-85'>
   <div>
-  <h1 className='text-white font-semibold text-4xl md:text-[4rem] lg:leading-[80px]'>Your industry,</h1>
-  <h1 className='text-orange-600  font-semibold text-4xl md:text-[4rem]  md:leading-[80px]'>our tailored solutions</h1>
-  <p className='text-white md:text-[1.6rem] md:py-3 lg:py-5 opacity-75 leading-snug lg:w-[60%]'>Leverage Belkins expertise in 50+ industries to target the right audience  and acquire qualified B2B leads. Choose your industry to find out how Belkins optimizes sales for businesses across various markets.</p>
+  <h1 className='text-white font-semibold text-4xl md:text-[3.5rem] lg:leading-[60px]'>Your industry,</h1>
+  <h1 className='text-orange-600  font-semibold text-4xl md:text-[3.5rem]  md:leading-[60px]'>our tailored solutions</h1>
+  <p className='text-white md:text-[1.23rem] md:py-3 lg:py-5 opacity-75 leading-snug lg:w-[60%]'>Leverage Belkins expertise in 50+ industries to target the right audience  and acquire qualified B2B leads. Choose your industry to find out how Belkins optimizes sales for businesses across various markets.</p>
   </div>
-  <div className='lg:flex lg:flex-wrap  py-4 lg:pt-20 gap-5 max-lg:space-y-3'>
-    <div className='hover:scale-[105%] lg:h-[14rem] lg:w-[16rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10 lg:h-16 lg:w-16 opacity-50 group-hover:opacity-100' src={finance} alt=""/><h1 className='text-white md:text-2xl lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Finance Services</h1></div>
-    <div className='hover:scale-[105%] lg:h-[14rem] lg:w-[16rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10 lg:h-16 lg:w-16 opacity-50 group-hover:opacity-100' src={healthcare} alt=""/><h1 className='text-white md:text-2xl lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Healthcare & pharmaceutical</h1></div>
-    <div className='hover:scale-[105%] lg:h-[14rem] lg:w-[16rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10 lg:h-16 lg:w-16 opacity-50 group-hover:opacity-100' src={agency} alt=""/><h1 className='text-white md:text-2xl lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Agencies</h1></div>
-    <div className='hover:scale-[105%] lg:h-[14rem] lg:w-[16rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10 lg:h-16 lg:w-16 opacity-50 group-hover:opacity-100' src={Hardware} alt=""/><h1 className='text-white md:text-2xl lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Hardware manufacturing</h1></div>
-    <div className='hover:scale-[105%] lg:h-[14rem] lg:w-[16rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10 lg:h-16 lg:w-16 opacity-50 group-hover:opacity-100' src={media} alt=""/><h1 className='text-white md:text-2xl lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Media Production</h1></div>
+  <div className='lg:flex lg:flex-wrap   lg:pt-10 gap-5 max-lg:space-y-3'>
+    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={finance} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Finance Services</h1></div>
+    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={healthcare} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Healthcare & pharmaceutical</h1></div>
+    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={agency} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Agencies</h1></div>
+    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={Hardware} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Hardware manufacturing</h1></div>
+    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={media} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Media Production</h1></div>
 
   </div>
 </div>
@@ -225,7 +158,7 @@ export default function Main() {
 
 
 {/* your #1 choice */}
-<div className='lg:flex justify-between p-[5%]'>
+<div id='6' className='lg:flex justify-between p-[5%]'>
 <div>
 
     <h1 className='text-3xl md:text-6xl font-semibold '>What makes Belkins</h1>
