@@ -12,8 +12,8 @@ import twitter from '../../public/icons/twitter.svg';
 
 export default function Footer() {
   return (
-    <div id='footer' className='px-[7%] py-10 bg-white flex justify-between items-center'>
-      <div>
+    <div id='footer' className='px-[7%] md:py-10 py-20 bg-white flex flex-wrap max-sm:space-y-4 justify-between  items-center'>
+      <div> 
         <div className='pb-5'>
           <Image width={100} src={logo} alt='' />
         </div>

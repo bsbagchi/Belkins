@@ -9,8 +9,8 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <div className='px-[7%] h-20 shadow-md sticky z-40 top-0 bg-white flex items-center justify-between '>
-      <nav className='flex gap-10'>
+    <div className='px-[7%] h-20 shadow-md sticky  z-40 top-0 bg-white flex items-center justify-between '>
+      <nav className='flex  gap-10'>
         <Link href={'/'}><Image className='w-24' src={Logo} alt='' /> </Link>
         <ul className=' items-center gap-10 hidden  min-[1070px]:flex'>
             <Link className='hover:text-orange-600' href={'#1'}><li>HOME</li></Link>
