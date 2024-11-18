@@ -53,7 +53,7 @@ export default function Crousel() {
           
           className={`pl-1 md:pl-[5%] py-20 flex min-w-max max-sm:gap-5 md:gap-10 lg:gap-20 `}
         >
-          <div className='lg:p-6 rounded-3xl  overflow-hidden    max-sm:h-[420px] h-[580px] lg:h-[600px] max-sm:w-[365px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
+          <div className='lg:p-6 rounded-3xl  overflow-hidden    max-sm:h-[430px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
           
             <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden'>
                 <Image className='max-sm:h-[160px]  md:h-[200px] lg:h-auto   lg:w-[550px]' src={crousel1} alt=''/>
@@ -79,7 +79,7 @@ export default function Crousel() {
 
 
 
-          <div className='lg:p-6 rounded-3xl overflow-hidden    max-sm:h-[420px] h-[580px] lg:h-[600px] max-sm:w-[365px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
+          <div className='lg:p-6 rounded-3xl overflow-hidden    max-sm:h-[430px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
           
           <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden'>
               <Image className='max-sm:h-[160px]  md:h-[200px] lg:h-auto   lg:w-[550px]' src={crousel1} alt=''/>
@@ -104,7 +104,7 @@ export default function Crousel() {
         
 
 
-        <div className='lg:p-6 rounded-3xl  overflow-hidden   max-sm:h-[420px] h-[580px] lg:h-[600px] max-sm:w-[365px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
+        <div className='lg:p-6 rounded-3xl  overflow-hidden   max-sm:h-[430px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
           
           <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden'>
               <Image className='max-sm:h-[160px]  md:h-[200px] lg:h-auto   lg:w-[550px]' src={crousel1} alt=''/>
@@ -130,7 +130,7 @@ export default function Crousel() {
 
 
 
-        <div className='lg:p-6 rounded-3xl  overflow-hidden   max-sm:h-[420px] h-[580px] lg:h-[600px] max-sm:w-[365px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
+        <div className='lg:p-6 rounded-3xl  overflow-hidden   max-sm:h-[430px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
           
           <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden'>
               <Image className='max-sm:h-[160px]  md:h-[200px] lg:h-auto   lg:w-[550px]' src={crousel1} alt=''/>

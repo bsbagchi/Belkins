@@ -2,6 +2,7 @@
 
 import React,{useState} from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Marque from './Marque';
 import Crousel from './Crousel';
 import award from '../../public/award/06.png';
@@ -23,6 +24,9 @@ import profile from '../../public/meet/profile.jpg';
 import video from '../../public/meet/video.jpg';
 import rightarrow from '../../public/icons/chevron.svg';
 import Lead from './Lead';
+import Weserve from './Weserve';
+
+
 
 export default function Main() {
  
@@ -139,23 +143,32 @@ export default function Main() {
          </div>
           
 {/* You Industry  */}
+
+
+
 <div id='4' className='md:mx-[7%] mx-2 p-[5%] rounded-3xl  md:rounded-[3rem] md:my-10 bg-current opacity-85'>
-  <div>
+  <div className='flex'>
+    <div>
   <h1 className='text-white font-semibold text-4xl md:text-[3.5rem] lg:leading-[60px]'>Your industry,</h1>
   <h1 className='text-orange-600  font-semibold text-4xl md:text-[3.5rem]  md:leading-[60px]'>our tailored solutions</h1>
   <p className='text-white md:text-[1.23rem] md:py-3 lg:py-5 opacity-75 leading-snug lg:w-[60%]'>Leverage Belkins expertise in 50+ industries to target the right audience  and acquire qualified B2B leads. Choose your industry to find out how Belkins optimizes sales for businesses across various markets.</p>
   </div>
+  <div className='h-full w-full flex justify-end  '>
+  <Link className='max-lg:hidden' href='#serve'><div className='w-64 mt-40  border-[1px] hover:bg-zinc-900 hover:border-zinc-900 text-white text-2xl flex gap-2  rounded-xl py-2 px-2'><h1>See all industries</h1><div className='transfrom rotate-90 w-fit h-fit mr-2'>^</div></div></Link>
+  </div>
+  </div>
   <div className='lg:flex lg:flex-wrap   lg:pt-10 gap-5 max-lg:space-y-3'>
-    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={finance} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Finance Services</h1></div>
-    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={healthcare} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Healthcare & pharmaceutical</h1></div>
-    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={agency} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Agencies</h1></div>
-    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={Hardware} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Hardware manufacturing</h1></div>
-    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-mt-5 transition ease-in-out'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={media} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Media Production</h1></div>
-
+    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-translate-y-3 transfrom-all transition-transform ease-in-out duration-150 delay-150'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={finance} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Finance Services</h1></div>
+    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-translate-y-3 transfrom-all transition-transform ease-in-out duration-150 delay-150'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={healthcare} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Healthcare & pharmaceutical</h1></div>
+    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-translate-y-3 transfrom-all transition-transform ease-in-out duration-150 delay-150'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={agency} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Agencies</h1></div>
+    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-translate-y-3 transfrom-all transition-transform ease-in-out duration-150 delay-150'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={Hardware} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Hardware manufacturing</h1></div>
+    <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-translate-y-3 transfrom-all transition-transform ease-in-out duration-150 delay-150'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={media} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Media Production</h1></div>
+    <Link className='lg:hidden' href='#serve'><div className='w-64 mt-5    hover:bg-zinc-900 hover:border-zinc-900 border-[1px] text-white text-2xl flex gap-2  rounded-xl py-2 px-2'><h1>See all industries</h1><div className='transfrom rotate-90 w-fit h-fit mr-2'>^</div></div></Link>
   </div>
 </div>
 
-
+{/* we serve */}
+<Weserve/>
 
 {/* your #1 choice */}
 <div id='6' className='lg:flex justify-between p-[5%]'>
