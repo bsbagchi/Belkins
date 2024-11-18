@@ -348,6 +348,11 @@ export default function Main() {
 </div>
 
 </div>
+<div className='py-20 px-[5%]'>
+  <h1 className='max-sm:text-xl text-3xl font-semibold text-orange-600 leading-[40px] text-center'>Ready to Scale Your Sales?</h1>
+  <h1 className='max-sm:text-3xl text-6xl  py-5 font-semibold leading-[70px] text-center'>Let CloserGod drive qualified leads straight to your pipeline. Contact us today to unlock your business's full potential!</h1>
+  <div className='w-40 cursor-pointer hover:opacity-80 md:mt-10 py-2 px-2 rounded-xl mx-auto bg-orange-600 text-white text-center font-semibold text-xl'>BOOK A CALL</div>
+</div>
 </div>
     
   )
