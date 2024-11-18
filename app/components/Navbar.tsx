@@ -56,7 +56,7 @@ export default function Navbar() {
           sidebar ? `translate-x-0` : `-translate-x-[100%]`
         } transition-transform`}
       >
-        <ul className="space-y-5">
+        <ul className="space-y-5 pt-5">
           
             <li onClick={()=>{setSidebar(!sidebar)}}><Link className="hover:text-orange-600" href={'#1'}>HOME</Link></li>
           
