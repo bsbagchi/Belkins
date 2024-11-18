@@ -87,7 +87,7 @@ export default function Weserve() {
     {
       icon: telecom,
       title: "Telecommunication",
-      description: "Your sales tactics don't work anymore? Our omnichannel approach generates a steady stream of high-quality telecom leads.",
+      description: "Your sales tactics don&apos;t work anymore? Our omnichannel approach generates a steady stream of high-quality telecom leads.",
       href: "/telecom"
     }
   ]
