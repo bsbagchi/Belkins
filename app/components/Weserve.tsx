@@ -1,7 +1,6 @@
 'use client'
 
-import Image from 'next/image'
-import Link from "next/link"
+import Image from 'next/image';
 import agency from '../../public/you industry/weserve/agencies.svg';
 import constraction from '../../public/you industry/weserve/construction.svg';
 import consulting from '../../public/you industry/weserve/Consulting.svg';
@@ -87,7 +86,7 @@ export default function Weserve() {
     {
       icon: telecom,
       title: "Telecommunication",
-      description: "Your sales tactics don&apos;t work anymore? Our omnichannel approach generates a steady stream of high-quality telecom leads.",
+      description: "Your sales tactics don't work anymore? Our omnichannel approach generates a steady stream of high-quality telecom leads.",
       href: "/telecom"
     }
   ]
@@ -144,10 +143,10 @@ export default function Weserve() {
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {sectors.map((sector) => {
+        {sectors.map((sector,index) => {
          
           return (
-            <div
+            <div key={index}
               className="block group"
             >
               <div className="bg-white rounded-lg p-6 shadow-sm transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-md h-full">

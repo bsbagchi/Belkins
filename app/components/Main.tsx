@@ -323,7 +323,7 @@ export default function Main() {
   <div className='w-1/2 p-[2%]'>
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Copywriter</h1>
-  <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
+  <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we{"’"}ll find the most relevant AM to lead your project.</p>
   <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
   </div>
   <div className='w-1/2  rounded-2xl h-fit overflow-hidden'><Image src={video} alt='' /></div>
@@ -350,7 +350,7 @@ export default function Main() {
 </div>
 <div className='py-20 px-[5%]'>
   <h1 className='max-sm:text-xl text-3xl font-semibold text-orange-600 leading-[40px] text-center'>Ready to Scale Your Sales?</h1>
-  <h1 className='max-sm:text-3xl text-6xl  py-5 font-semibold leading-[70px] text-center'>Let CloserGod drive qualified leads straight to your pipeline. Contact us today to unlock your business's full potential!</h1>
+  <h1 className='max-sm:text-3xl text-6xl  py-5 font-semibold leading-[70px] text-center'>Let CloserGod drive qualified leads straight to your pipeline. Contact us today to unlock your business{"'"}s full potential!</h1>
   <div className='w-40 cursor-pointer hover:opacity-80 md:mt-10 py-2 px-2 rounded-xl mx-auto bg-orange-600 text-white text-center font-semibold text-xl'>BOOK A CALL</div>
 </div>
 </div>
