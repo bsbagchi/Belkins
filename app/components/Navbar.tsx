@@ -11,11 +11,25 @@ export default function Navbar() {
   return (
     <div className="px-3 md:px-[7%] h-20 shadow-md sticky z-40 top-0 bg-white flex items-center justify-between">
       <div className="hidden max-sm:flex items-center gap-4">
-        <div onClick={() => setSidebar(!sidebar)} className="space-y-1">
-          <div className="w-7 h-1 bg-gray-600 rounded-md"></div>
-          <div className="w-7 h-1 bg-gray-600 rounded-md"></div>
-          <div className="w-7 h-1 bg-gray-600 rounded-md"></div>
+        {/* Hamburger Menu */}
+        <div onClick={() => setSidebar(!sidebar)} className="relative w-7 h-7 flex flex-col space-y-1  justify-center items-center">
+          <div
+            className={`w-7 h-1 bg-gray-600 rounded-md transition-transform duration-300 ${
+              sidebar ? 'rotate-45 translate-y-2' : ''
+            }`}
+          ></div>
+          <div
+            className={`w-7 h-1 bg-gray-600 rounded-md transition-opacity duration-300 ${
+              sidebar ? 'opacity-0' : 'opacity-100'
+            }`}
+          ></div>
+          <div
+            className={`w-7 h-1 bg-gray-600 rounded-md transition-transform duration-300 ${
+              sidebar ? '-rotate-45 -translate-y-2' : ''
+            }`}
+          ></div>
         </div>
+
         <Link href={'/'}>
           <Image className="w-24 max-sm:block hidden" src={Logo} alt="Logo" />
         </Link>
@@ -51,29 +65,43 @@ export default function Navbar() {
         Book a call
       </button>
 
+      {/* Sidebar Menu */}
       <div
-        className={`flex px-4 absolute bg-white top-[80.2px] w-1/2 left-0 h-[100vh] ease-in-out duration-500 delay-150 ${
+        className={`flex px-4 absolute bg-white top-[80.2px] w-1/2 left-0 h-[100vh] ease-in-out duration-500 ${
           sidebar ? `translate-x-0` : `-translate-x-[100%]`
         } transition-transform`}
       >
         <ul className="space-y-5 pt-5">
-          
-            <li onClick={()=>{setSidebar(!sidebar)}}><Link className="hover:text-orange-600" href={'#1'}>HOME</Link></li>
-          
-          
-            <li onClick={()=>{setSidebar(!sidebar)}}><Link className="hover:text-orange-600" href={'#2'}>ABOUT US</Link></li>
-          
-          
-            <li onClick={()=>{setSidebar(!sidebar)}}><Link className="hover:text-orange-600" href={'#3'}>CASE STUDIES</Link></li>
-          
-          
-            <li onClick={()=>{setSidebar(!sidebar)}}><Link className="hover:text-orange-600" href={'#4'}>INDUSTRIES</Link></li>
-          
-          
-            <li onClick={()=>{setSidebar(!sidebar)}}><Link className="hover:text-orange-600" href={'#5'}>WHY CLOSERGOD</Link></li>
-          
-          
-            <li onClick={()=>{setSidebar(!sidebar)}}><Link className="hover:text-orange-600" href={'#6'}>CONTACT US</Link></li>
+          <li onClick={() => setSidebar(!sidebar)}>
+            <Link className="hover:text-orange-600" href={'#1'}>
+              HOME
+            </Link>
+          </li>
+          <li onClick={() => setSidebar(!sidebar)}>
+            <Link className="hover:text-orange-600" href={'#2'}>
+              ABOUT US
+            </Link>
+          </li>
+          <li onClick={() => setSidebar(!sidebar)}>
+            <Link className="hover:text-orange-600" href={'#3'}>
+              CASE STUDIES
+            </Link>
+          </li>
+          <li onClick={() => setSidebar(!sidebar)}>
+            <Link className="hover:text-orange-600" href={'#4'}>
+              INDUSTRIES
+            </Link>
+          </li>
+          <li onClick={() => setSidebar(!sidebar)}>
+            <Link className="hover:text-orange-600" href={'#5'}>
+              WHY CLOSERGOD
+            </Link>
+          </li>
+          <li onClick={() => setSidebar(!sidebar)}>
+            <Link className="hover:text-orange-600" href={'#6'}>
+              CONTACT US
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
