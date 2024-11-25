@@ -1,7 +1,10 @@
 'use client';
 import React, { useRef} from 'react'
 import Image from 'next/image';
-import crousel1 from '../../public/crousel/crousel1.jpg';
+import crousel1 from '../../public/crousel/bigpic/1.png';
+import crousel2 from '../../public/crousel/bigpic/2.png';
+import crousel3 from '../../public/crousel/bigpic/3.png';
+import crousel4 from '../../public/crousel/bigpic/4.png';
 import actuate from '../../public/marque/Actuate logo.jpg';
 import nyxwolves from '../../public/crousel/nyxwolves_logo.jpg';
 import salesforce from '../../public/crousel/salesforce_logo.jpg';
@@ -57,10 +60,10 @@ export default function Crousel() {
           className={`pl-1 md:pl-[5%] py-20 flex min-w-max max-sm:gap-5 md:gap-10 lg:gap-20 `}
         >
           {/* 1 */}
-          <div className='lg:p-6 rounded-3xl  overflow-hidden    max-sm:h-[450px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
+          <div className='lg:p-6 rounded-3xl  overflow-hidden    max-sm:h-[450px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[80vw] bg-white snap-center'>
           
-            <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden'>
-                <Image className='max-sm:h-[200px]  md:h-[200px] lg:h-auto   lg:w-[550px]' src={crousel1} alt=''/>
+            <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden max-sm:h-[200px]  md:h-[200px] lg:h-[400px]   lg:w-1/2'>
+                <Image className='object-cover' src={crousel1} alt=''/>
             </div>
             <div className='px-2 py-4 max-sm:py-2 lg:p-5 lg:w-[700px]'>
                 <Image className="w-4 md:w-[60px] h-5 md:h-10 lg:h-20 max-sm:w-[50px] lg:w-[140px] " src={actuate} alt=""/>
@@ -83,10 +86,10 @@ export default function Crousel() {
 
           {/* 2 */}
 
-          <div className='lg:p-6 rounded-3xl  overflow-hidden    max-sm:h-[450px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
+          <div className='lg:p-6 rounded-3xl  overflow-hidden    max-sm:h-[450px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[80vw] bg-white snap-center'>
           
-          <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden'>
-              <Image className='max-sm:h-[200px]  md:h-[200px] lg:h-auto   lg:w-[550px]' src={crousel1} alt=''/>
+          <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden max-sm:h-[200px]  md:h-[200px] lg:h-[400px]   lg:w-1/2'>
+              <Image className='object-cover' src={crousel2} alt=''/>
           </div>
           <div className='px-2 py-4 max-sm:py-2 lg:p-5 lg:w-[700px]'>
               <Image className="w-4 md:w-[60px] h-5 md:h-10 lg:h-20 max-sm:w-[50px] lg:w-[140px]  " src={nyxwolves} alt=""/>
@@ -110,10 +113,10 @@ export default function Crousel() {
 
 {/* 3 */}
 
-        <div className='lg:p-6 rounded-3xl  overflow-hidden    max-sm:h-[450px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
+        <div className='lg:p-6 rounded-3xl  overflow-hidden    max-sm:h-[450px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[80vw] bg-white snap-center'>
           
-            <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden'>
-                <Image className='max-sm:h-[200px]  md:h-[200px] lg:h-auto   lg:w-[550px]' src={crousel1} alt=''/>
+            <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden max-sm:h-[200px]  md:h-[200px] lg:h-[400px]   lg:w-1/2'>
+                <Image className='object-cover' src={crousel3} alt=''/>
             </div>
             <div className='px-2 py-4 max-sm:py-2 lg:p-5 lg:w-[700px]'>
                 <Image className="w-4 md:w-[60px] h-5 md:h-10 lg:h-20 max-sm:w-[50px] lg:w-[140px] " src={salesforce} alt=""/>
@@ -138,10 +141,10 @@ export default function Crousel() {
 
 {/* 4 */}
 
-          <div className='lg:p-6 rounded-3xl  overflow-hidden    max-sm:h-[450px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[1300px] bg-white snap-center'>
+          <div className='lg:p-6 rounded-3xl  overflow-hidden    max-sm:h-[450px] h-[580px] lg:h-[600px] max-sm:w-[330px] md:w-[370px] lg:w-[80vw] bg-white snap-center'>
           
-            <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden'>
-                <Image className='max-sm:h-[200px]  md:h-[200px] lg:h-auto   lg:w-[550px]' src={crousel1} alt=''/>
+            <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden max-sm:h-[200px]  md:h-[200px] lg:h-[400px]   lg:w-1/2'>
+                <Image className='object-cover' src={crousel4} alt=''/>
             </div>
             <div className='px-2 py-4 max-sm:py-2 lg:p-5 lg:w-[700px]'>
                 <Image className="w-4 md:w-[60px] h-5 md:h-10 lg:h-20 max-sm:w-[50px] lg:w-[140px] " src={microsoftlogo} alt=""/>

@@ -29,6 +29,7 @@ import first from '../../public/meet/firstimg.jpg';
 import rightarrow from '../../public/icons/chevron.svg';
 import Lead from './Lead';
 import Weserve from './Weserve';
+import Slider from './Slider';
 
 
 
@@ -155,13 +156,13 @@ export default function Main() {
     <div>
   <h1 className='text-white font-semibold text-4xl md:text-[3.5rem] lg:leading-[60px]'>Your industry,</h1>
   <h1 className='text-orange-600  font-semibold text-4xl md:text-[3.5rem]  md:leading-[60px]'>our tailored solutions</h1>
-  <p className='text-white md:text-[1.23rem] md:py-3 lg:py-5 opacity-75 leading-snug lg:w-[60%]'>Leverage Belkins expertise in 50+ industries to target the right audience  and acquire qualified B2B leads. Choose your industry to find out how Belkins optimizes sales for businesses across various markets.</p>
+  <p className='text-white md:text-[1.23rem] max-sm:py-3 md:py-3 lg:py-5 opacity-75 leading-snug lg:w-[60%]'>Leverage Belkins expertise in 50+ industries to target the right audience  and acquire qualified B2B leads. Choose your industry to find out how Belkins optimizes sales for businesses across various markets.</p>
   </div>
   <div className='h-full w-full flex justify-end  '>
   <Link className='max-lg:hidden' href='#serve'><div className='w-64 mt-40  border-[1px] hover:bg-zinc-900 hover:border-zinc-900 text-white text-2xl flex gap-2  rounded-xl py-2 px-2'><h1>See all industries</h1><div className='transfrom rotate-90 w-fit h-fit mr-2'>^</div></div></Link>
   </div>
   </div>
-  <div className='lg:flex lg:flex-wrap   lg:pt-10 gap-5 max-lg:space-y-3'>
+  <div className='lg:flex lg:flex-wrap max-sm:pt-3   lg:pt-10 gap-5 max-lg:space-y-3'>
     <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-translate-y-3 transfrom-all transition-transform ease-in-out duration-150 delay-150'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={finance} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Finance Services</h1></div>
     <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-translate-y-3 transfrom-all transition-transform ease-in-out duration-150 delay-150'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={healthcare} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Healthcare & pharmaceutical</h1></div>
     <div className='hover:scale-[105%] lg:h-[11rem] lg:w-[13rem] max-lg:flex lg:gap-0 gap-3 items-center  rounded-2xl bg-zinc-900 p-4 lg:p-10  bg-opacity-50  group lg:hover:-translate-y-3 transfrom-all transition-transform ease-in-out duration-150 delay-150'><Image className='lg:mx-auto md:h-10  lg:h-10 lg:w-10 opacity-50 group-hover:opacity-100' src={agency} alt=""/><h1 className='text-white md:text-lg lg:text-center lg:pt-4 opacity-50 group-hover:opacity-100'>Agencies</h1></div>
@@ -202,7 +203,9 @@ export default function Main() {
 <div className=''>
   <h1 className='text-3xl font-semibold md:text-6xl text-center text-orange-600'>Meet the people</h1>
   <h1 className='text-3xl font-semibold md:text-6xl md:leading-[82px] text-center'>behind your project</h1>
-  <div className="p-[5%] flex max-lg:flex-wrap gap-5">
+  <div className="p-[5%] flex max-lg:flex-wrap gap-5"> 
+  
+  {/* mobile view */}
 
 {/* 1 */}
 
@@ -212,8 +215,8 @@ export default function Main() {
     <div className={`w-full lg:hidden p-[2%]   ${mobmeet===1?``:`hidden`}`}>
   <Image className='w-52' src={profile} alt='' />
   <h1 className='text-2xl pt-4 font-semibold'>Account manager</h1>
-  <p className=' leading-2 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
-  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
+  <p className=' leading-2 opacity-70 text-justify '>Our Account Managers are dedicated to understanding every aspect of your needs and aligning them with our strategies to bring your vision to life. They outline clear objectives, monitor progress, and ensure every campaign aligns with your goals. With deep expertise across various industries, we pair you with an Account Manager who is a true specialist in your niche, ready to lead your project to success.</p>
+  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div>
   </div>
       </div></div>
 
@@ -225,9 +228,9 @@ export default function Main() {
           <Image className={`max-lg:hidden md:w-9 md:h-9 grayscale  ${meet===2?`lg:grayscale-0`:` group-hover:grayscale-0`}`} src={sdr} alt=''/><h1 className={`max-lg:font-semibold lg:pt-1 md:text-xl leading-10 ${meet===2?`lg:text-orange-600`:`group-hover:text-orange-600 opacity-60 `}`}>SDR</h1><Image className={` opacity-50 transition ease-in-out lg:hidden ${mobmeet===2?`-rotate-90`:`rotate-90`}`} src={rightarrow} alt=""/></div> <div>
     <div className={`w-full lg:hidden p-[2%]   ${mobmeet===2?``:`hidden`}`}>
   <Image className='w-52' src={profile} alt='' />
-  <h1 className='text-2xl pt-4 font-semibold'>Account manager</h1>
-  <p className=' leading-2 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
-  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
+  <h1 className='text-2xl pt-4 font-semibold'>Sales Development Representative</h1>
+  <p className=' leading-2 opacity-70 text-justify'>Our SDRs are the frontline communicators, identifying key prospects and initiating meaningful conversations. They’re experts at understanding client needs, qualifying leads, and setting the stage for successful partnerships. With a keen eye for detail and a knack for relationship building, our SDRs ensure every lead is a valuable connection.</p>
+  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div>
   </div>
       </div></div>
 
@@ -239,9 +242,9 @@ export default function Main() {
           <Image className={`max-lg:hidden md:w-9 md:h-9 grayscale  ${meet===3?`lg:grayscale-0`:` group-hover:grayscale-0`}`} src={search} alt=''/><h1 className={`max-lg:font-semibold md:text-xl lg:pt-1 leading-10 ${meet===3?`lg:text-orange-600`:`group-hover:text-orange-600 opacity-60`}`}>Lead Researcher</h1><Image className={` opacity-50 lg:hidden transition ease-in-out ${mobmeet===3?`-rotate-90`:`rotate-90`}`} src={rightarrow} alt=""/></div> <div>
     <div className={`w-full lg:hidden p-[2%]   ${mobmeet===3?``:`hidden`}`}>
   <Image className='w-52' src={profile} alt='' />
-  <h1 className='text-2xl pt-4 font-semibold'>Account manager</h1>
-  <p className=' leading-2 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
-  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
+  <h1 className='text-2xl pt-4 font-semibold'>Lead Researcher</h1>
+  <p className=' leading-2 opacity-70 text-justify'>Our Lead Researchers are skilled investigators who provide the insights that drive targeted campaigns. From identifying trends to uncovering potential new markets, they use a mix of tools and data analysis to equip your campaign with the intelligence it needs. Their findings ensure we’re always one step ahead, delivering strategies that are rooted in research.</p>
+  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div>
   </div>
       </div></div>
 
@@ -253,9 +256,9 @@ export default function Main() {
     <h1 className={`max-lg:font-semibold md:text-xl leading-10 ${meet===4?`lg:text-orange-600`:`group-hover:text-orange-600 opacity-60 lg:pt-1`}`}>Copywriter</h1><Image className={` opacity-50 lg:hidden transition ease-in-out ${mobmeet===4?`-rotate-90`:`rotate-90`}`} src={rightarrow} alt=""/></div> <div>
     <div className={`w-full lg:hidden p-[2%]   ${mobmeet===4?``:`hidden`}`}>
   <Image className='w-52' src={profile} alt='' />
-  <h1 className='text-2xl pt-4 font-semibold'>Account manager</h1>
-  <p className=' leading-2 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
-  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
+  <h1 className='text-2xl pt-4 font-semibold'>Copywriter</h1>
+  <p className=' leading-2 opacity-70 text-justify'>Words have power, and our Copywriters know how to wield it effectively. They craft compelling, impactful content that resonates with your audience, builds brand trust, and drives conversions. Whether it’s a tagline, blog post, or social media update, our Copywriters understand how to deliver the right message with style and clarity.</p>
+  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div>
   </div>
       </div></div>
 
@@ -271,8 +274,8 @@ export default function Main() {
     <div className={`w-full lg:hidden p-[2%]   ${mobmeet===5?``:`hidden`}`}>
   <Image className='w-52' src={profile} alt='' />
   <h1 className='text-2xl pt-4 font-semibold'>Account manager</h1>
-  <p className=' leading-2 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
-  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
+  <p className=' leading-2 opacity-70 text-justify'>Our Email Tech Experts are the masters of automation and analytics, ensuring every email is perfectly timed and designed to perform. They handle the technical side of email marketing—from segmentation to troubleshooting—so your communications reach the right people at the right time. With a deep understanding of the latest email marketing tools, they help maximize engagement and drive results.</p>
+  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div>
   </div>
       </div></div>
 
@@ -284,8 +287,8 @@ export default function Main() {
   <div className='w-1/2 p-[2%]'>
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Account manager</h1>
-  <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
-  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
+  <p className='text-2xl leading-10 opacity-70'>Our Account Managers are dedicated to understanding every aspect of your needs and aligning them with our strategies to bring your vision to life. They outline clear objectives, monitor progress, and ensure every campaign aligns with your goals. With deep expertise across various industries, we pair you with an Account Manager who is a true specialist in your niche, ready to lead your project to success.</p>
+  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div>
   </div>
   <div className='w-1/2  rounded-2xl h-fit overflow-hidden c'><Image className='w-full object-cover h-[450px]' src={first} alt='' /></div>
 </div>
@@ -294,11 +297,11 @@ export default function Main() {
 {/* 2 */}
 
 <div className={`w-full flex items-center shadow-md ${meet===2?` flex `:` hidden `} justify-between p-[3%] rounded-3xl bg-white `} >
-  <div className='w-1/2 p-[2%]'>
+  <div className='w-1/2 py-[2%]'>
   <Image className='w-72' src={profile} alt='' />
-  <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Sales Development Representative</h1>
-  <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
-  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
+  <h1 className='text-4xl   pt-10 leading-[82px] font-semibold'>Sales Development Representative</h1>
+  <p className='text-2xl leading-10 opacity-70'>Our SDRs are the frontline communicators, identifying key prospects and initiating meaningful conversations. They’re experts at understanding client needs, qualifying leads, and setting the stage for successful partnerships. With a keen eye for detail and a knack for relationship building, our SDRs ensure every lead is a valuable connection.  </p>
+  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div>
   </div>
   <div className='w-1/2  rounded-2xl h-[450px]  overflow-hidden'><Image className='w-full  ' src={sec} alt='' /></div>
 </div>
@@ -312,8 +315,8 @@ export default function Main() {
   <div className='w-1/2 p-[2%]'>
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Lead Researcher</h1>
-  <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
-  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
+  <p className='text-2xl leading-10 opacity-70'>Our Lead Researchers are skilled investigators who provide the insights that drive targeted campaigns. From identifying trends to uncovering potential new markets, they use a mix of tools and data analysis to equip your campaign with the intelligence it needs. Their findings ensure we’re always one step ahead, delivering strategies that are rooted in research.</p>
+  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div>
   </div>
   <div className='w-1/2  rounded-2xl h-[450px] overflow-hidden '><Image className=' w-full  ' src={third} alt='' /></div>
 </div>
@@ -327,7 +330,7 @@ export default function Main() {
   <div className='w-1/2 p-[2%]'>
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Copywriter</h1>
-  <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we{"’"}ll find the most relevant AM to lead your project.</p>
+  <p className='text-2xl leading-10 opacity-70'>Words have power, and our Copywriters know how to wield it effectively. They craft compelling, impactful content that resonates with your audience, builds brand trust, and drives conversions. Whether it’s a tagline, blog post, or social media update, our Copywriters understand how to deliver the right message with style and clarity.</p>
   <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
   </div>
   <div className='w-1/2  rounded-2xl h-[450px] overflow-hidden'><Image  className='w-full' src={four} alt='' /></div>
@@ -342,8 +345,8 @@ export default function Main() {
   <div className='w-1/2 p-[2%]'>
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Email Tech Expert</h1>
-  <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
-  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
+  <p className='text-2xl leading-10 opacity-70'>Our Email Tech Experts are the masters of automation and analytics, ensuring every email is perfectly timed and designed to perform. They handle the technical side of email marketing—from segmentation to troubleshooting—so your communications reach the right people at the right time. With a deep understanding of the latest email marketing tools, they help maximize engagement and drive results.</p>
+  <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div>
   </div>
   <div className='w-1/2  rounded-2xl h-[450px] overflow-hidden'><Image className='w-full' src={five} alt='' /></div>
 </div>
@@ -352,6 +355,8 @@ export default function Main() {
 </div>
 
 </div>
+{/* section 8 */}
+<Slider/>
 {/* <div className='py-20 px-[5%]'>
   <h1 className='max-sm:text-xl text-3xl font-semibold text-orange-600 leading-[40px] text-center'>Ready to Scale Your Sales?</h1>
   <h1 className='max-sm:text-3xl text-6xl  py-5 font-semibold leading-[70px] text-center'>Let CloserGod drive qualified leads straight to your pipeline. Contact us today to unlock your business{"'"}s full potential!</h1>

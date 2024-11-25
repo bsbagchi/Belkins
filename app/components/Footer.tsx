@@ -10,6 +10,7 @@ import fb from '../../public/icons/fb.svg';
 import insta from '../../public/icons/inta.svg';
 import twitter from '../../public/icons/twitter.svg';
 
+
 export default function Footer() {
   return (
     <div id='footer' className='px-[7%] py-10  bg-white flex flex-wrap max-sm:space-y-4 justify-between  items-center'>
@@ -24,19 +25,19 @@ export default function Footer() {
         </ul>
         <div className='flex gap-3 pt-5'>
           <div className='w-10 h-10 rounded-full flex items-center justify-center bg-black bg-opacity-5 hover:bg-opacity-10 group'>
-            <Image className='group-hover:opacity-60 opacity-40' src={linedin} alt='' />
+            <Link target='blank' href='https://www.linkedin.com/company/closer-god/?viewAsMember=true'><Image className='group-hover:opacity-60 opacity-40' src={linedin} alt='' /></Link>
           </div>
           <div className='w-10 h-10 rounded-full flex items-center justify-center bg-black bg-opacity-5 hover:bg-opacity-10 group'>
-            <Image className='group-hover:opacity-60 opacity-40' src={youtube} alt='' />
+            <Link href='#'><Image className='group-hover:opacity-60 opacity-40' src={youtube} alt='' /></Link>
           </div>
           <div className='w-10 h-10 rounded-full flex items-center justify-center bg-black bg-opacity-5 hover:bg-opacity-10 group'>
-            <Image className='group-hover:opacity-60 opacity-40' src={insta} alt='' />
+            <Link href='#'><Image className='group-hover:opacity-60 opacity-40' src={insta} alt='' /></Link>
           </div>
           <div className='w-10 h-10 rounded-full flex items-center justify-center bg-black bg-opacity-5 hover:bg-opacity-10 group'>
-            <Image className='group-hover:opacity-60 opacity-40' src={fb} alt='' />
+            <Link href="#"><Image className='group-hover:opacity-60 opacity-40' src={fb} alt='' /></Link>
           </div>
           <div className='w-10 h-10 rounded-full flex items-center justify-center bg-black bg-opacity-5 hover:bg-opacity-10 group'>
-            <Image className='group-hover:opacity-60 opacity-40' src={twitter} alt='' />
+            <Link href='#'><Image className='group-hover:opacity-60 opacity-40' src={twitter} alt='' /></Link>
           </div>
         </div>
       </div>
