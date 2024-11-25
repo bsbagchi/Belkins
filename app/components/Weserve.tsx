@@ -113,14 +113,14 @@ export default function Weserve() {
   ]
 
   return (
-    <div id='serve' className="container mx-auto px-4 py-12">
+    <div id='serve' className="container mx-auto px-2 md:px-4 py-12">
       <div className="text-center mb-16">
         <h1 className="font-semibold text-4xl md:text-[3.5rem] lg:leading-[60px]">Industries we serve</h1>
         <p className=" max-sm:py-2 text-gray-600  md:text-[1.23rem] md:py-3 lg:py-5 opacity-75 leading-snug lg:w-[60%] mx-auto">
           Leverage Belkins expertise in 50+ industries to target the right audience and acquire qualified B2B leads. 
           Choose your industry to find out how Belkins optimizes sales for businesses across various markets.
         </p>
-        <div className="flex flex-wrap justify-center items-center gap-8 mt-8">
+        <div className="flex flex-wrap justify-center items-center  gap-4 md:gap-8 mt-8">
           {reviews.map((review) => (
             <div key={review.platform} className="flex items-center gap-3">
               <Image
