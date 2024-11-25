@@ -21,7 +21,11 @@ import search from '../../public/meet/research-approach.svg';
 import emailtech from '../../public/meet/deliverability.svg';
 import copywriter from '../../public/meet/content.svg';
 import profile from '../../public/meet/profile.jpg';
-import video from '../../public/meet/video.jpg';
+import five from '../../public/meet/img4.jpg';
+import four from '../../public/meet/img3.jpg';
+import third from '../../public/meet/img2.jpg';
+import sec from '../../public/meet/img1.jpg';
+import first from '../../public/meet/firstimg.jpg';
 import rightarrow from '../../public/icons/chevron.svg';
 import Lead from './Lead';
 import Weserve from './Weserve';
@@ -202,7 +206,7 @@ export default function Main() {
 
 {/* 1 */}
 
-<div onClick={()=>{setMeet(1); setMobmeet(mobmeet===1?0:1);}} className={`transition ease-in-out cursor-pointer w-full lg:h-[8.5rem] rounded-2xl  ${meet===1?`bg-white shadow-md `: `border-2 lg:hover:border-orange-600`}  lg:flex lg:flex-col max-lg:gap-3 p-3 md:p-8 lg:justify-center items-center lg:group`}>
+<div onClick={()=>{setMeet(1); setMobmeet(mobmeet===1?0:1);}} className={`bg-white  transition ease-in-out cursor-pointer w-full lg:h-[8.5rem] rounded-2xl  ${meet===1?`bg-white shadow-md `: `border-2 lg:hover:border-orange-600`}  lg:flex lg:flex-col max-lg:gap-3 p-3 md:p-8 lg:justify-center items-center lg:group`}>
   <div className='flex lg:flex-col items-center  justify-between '>
     <Image className={`max-lg:hidden md:w-9 md:h-9 grayscale  ${meet===1?`lg:grayscale-0`:` group-hover:grayscale-0`}`} src={manager} alt=''/><h1 className={`max-lg:font-semibold lg:pt-1 md:text-xl leading-10 ${meet===1?`lg:text-orange-600`:`group-hover:text-orange-600 opacity-60 `}`}>Account Manager</h1><Image className={` opacity-50 transition ease-in-out lg:hidden ${mobmeet===1?`-rotate-90`:`rotate-90`}`} src={rightarrow} alt=""/></div> <div>
     <div className={`w-full lg:hidden p-[2%]   ${mobmeet===1?``:`hidden`}`}>
@@ -216,7 +220,7 @@ export default function Main() {
 
       {/* 2 */}
     
-      <div onClick={()=>{setMeet(2); setMobmeet(mobmeet===2?0:2);}} className={`transition ease-in-out cursor-pointer w-full lg:h-[8.5rem] rounded-2xl  ${meet===2?`bg-white shadow-md `: `border-2 lg:hover:border-orange-600`}  lg:flex lg:flex-col max-lg:gap-3 p-3 md:p-8 lg:justify-center items-center lg:group`}>
+      <div onClick={()=>{setMeet(2); setMobmeet(mobmeet===2?0:2);}} className={`bg-white  transition ease-in-out cursor-pointer w-full lg:h-[8.5rem] rounded-2xl  ${meet===2?`bg-white shadow-md `: `border-2 lg:hover:border-orange-600`}  lg:flex lg:flex-col max-lg:gap-3 p-3 md:p-8 lg:justify-center items-center lg:group`}>
         <div className='flex lg:flex-col items-center  justify-between '>
           <Image className={`max-lg:hidden md:w-9 md:h-9 grayscale  ${meet===2?`lg:grayscale-0`:` group-hover:grayscale-0`}`} src={sdr} alt=''/><h1 className={`max-lg:font-semibold lg:pt-1 md:text-xl leading-10 ${meet===2?`lg:text-orange-600`:`group-hover:text-orange-600 opacity-60 `}`}>SDR</h1><Image className={` opacity-50 transition ease-in-out lg:hidden ${mobmeet===2?`-rotate-90`:`rotate-90`}`} src={rightarrow} alt=""/></div> <div>
     <div className={`w-full lg:hidden p-[2%]   ${mobmeet===2?``:`hidden`}`}>
@@ -230,7 +234,7 @@ export default function Main() {
 
 {/* 3 */}
 
-      <div onClick={()=>{setMeet(3); setMobmeet(mobmeet===3?0:3);}} className={`transition ease-in-out cursor-pointer w-full lg:h-[8.5rem] rounded-2xl  ${meet===3?`bg-white shadow-md `: `border-2 lg:hover:border-orange-600`}  lg:flex lg:flex-col max-lg:gap-3 p-3 md:p-8 lg:justify-center items-center lg:group`}>
+      <div onClick={()=>{setMeet(3); setMobmeet(mobmeet===3?0:3);}} className={`bg-white  transition ease-in-out cursor-pointer w-full lg:h-[8.5rem] rounded-2xl  ${meet===3?`bg-white shadow-md `: `border-2 lg:hover:border-orange-600`}  lg:flex lg:flex-col max-lg:gap-3 p-3 md:p-8 lg:justify-center items-center lg:group`}>
         <div className='flex lg:flex-col items-center  justify-between '>
           <Image className={`max-lg:hidden md:w-9 md:h-9 grayscale  ${meet===3?`lg:grayscale-0`:` group-hover:grayscale-0`}`} src={search} alt=''/><h1 className={`max-lg:font-semibold md:text-xl lg:pt-1 leading-10 ${meet===3?`lg:text-orange-600`:`group-hover:text-orange-600 opacity-60`}`}>Lead Researcher</h1><Image className={` opacity-50 lg:hidden transition ease-in-out ${mobmeet===3?`-rotate-90`:`rotate-90`}`} src={rightarrow} alt=""/></div> <div>
     <div className={`w-full lg:hidden p-[2%]   ${mobmeet===3?``:`hidden`}`}>
@@ -243,7 +247,7 @@ export default function Main() {
 
 {/* 4 */}
 
-      <div onClick={()=>{setMeet(4); setMobmeet(mobmeet===4?0:4);}} className={`transition ease-in-out cursor-pointer w-full lg:h-[8.5rem] rounded-2xl  ${meet===4?`bg-white shadow-md `: `border-2 lg:hover:border-orange-600`}  lg:flex lg:flex-col max-lg:gap-3 p-3 md:p-8 lg:justify-center items-center lg:group`}>
+      <div onClick={()=>{setMeet(4); setMobmeet(mobmeet===4?0:4);}} className={`bg-white  transition ease-in-out cursor-pointer w-full lg:h-[8.5rem] rounded-2xl  ${meet===4?`bg-white shadow-md `: `border-2 lg:hover:border-orange-600`}  lg:flex lg:flex-col max-lg:gap-3 p-3 md:p-8 lg:justify-center items-center lg:group`}>
         <div className='flex lg:flex-col items-center  justify-between '>
           <Image className={`max-lg:hidden md:w-9 md:h-9 grayscale  ${meet===4?`lg:grayscale-0`:` group-hover:grayscale-0`}`} src={copywriter} alt=''/>
     <h1 className={`max-lg:font-semibold md:text-xl leading-10 ${meet===4?`lg:text-orange-600`:`group-hover:text-orange-600 opacity-60 lg:pt-1`}`}>Copywriter</h1><Image className={` opacity-50 lg:hidden transition ease-in-out ${mobmeet===4?`-rotate-90`:`rotate-90`}`} src={rightarrow} alt=""/></div> <div>
@@ -257,7 +261,7 @@ export default function Main() {
 
 
 {/* 5 */}
-      <div onClick={()=>{setMeet(5); setMobmeet(mobmeet===5?0:5);}} className={`transition ease-in-out cursor-pointer w-full lg:h-[8.5rem] rounded-2xl  ${meet===5?`bg-white shadow-md `: `border-2 lg:hover:border-orange-600`}  lg:flex lg:flex-col max-lg:gap-3 p-3 md:p-8 lg:justify-center items-center lg:group`}>
+      <div onClick={()=>{setMeet(5); setMobmeet(mobmeet===5?0:5);}} className={`bg-white  transition ease-in-out cursor-pointer w-full lg:h-[8.5rem] rounded-2xl  ${meet===5?`bg-white shadow-md `: `border-2 lg:hover:border-orange-600`}  lg:flex lg:flex-col max-lg:gap-3 p-3 md:p-8 lg:justify-center items-center lg:group`}>
         <div className='flex lg:flex-col items-center  justify-between '>
           <Image className={`max-lg:hidden md:w-9 md:h-9 grayscale  ${meet===5?`lg:grayscale-0`:` group-hover:grayscale-0`}`} src={emailtech} alt=''/>
           <h1 className={`max-lg:font-semibold md:text-xl leading-10 ${meet===5?`lg:text-orange-600`:`group-hover:text-orange-600 opacity-60 lg:pt-1`}`}>Email Tech Expert</h1>
@@ -276,27 +280,27 @@ export default function Main() {
       </div>
   <div className='px-[5%] max-lg:hidden pb-[5%] -mt-14'>
     {/* 1 */}
-<div className={`w-full flex items-center  ${meet===1?`flex`:`hidden`} justify-between p-[3%] rounded-3xl bg-white `} >
+<div className={`w-full flex items-center shadow-md  ${meet===1?`flex`:`hidden`} justify-between p-[3%] rounded-3xl bg-white `} >
   <div className='w-1/2 p-[2%]'>
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Account manager</h1>
   <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
   <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
   </div>
-  <div className='w-1/2  rounded-2xl h-fit overflow-hidden'><Image src={video} alt='' /></div>
+  <div className='w-1/2  rounded-2xl h-fit overflow-hidden c'><Image className='w-full object-cover h-[450px]' src={first} alt='' /></div>
 </div>
 
 
 {/* 2 */}
 
-<div className={`w-full flex items-center ${meet===2?` flex `:` hidden `} justify-between p-[3%] rounded-3xl bg-white `} >
+<div className={`w-full flex items-center shadow-md ${meet===2?` flex `:` hidden `} justify-between p-[3%] rounded-3xl bg-white `} >
   <div className='w-1/2 p-[2%]'>
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Sales Development Representative</h1>
   <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
   <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
   </div>
-  <div className='w-1/2  rounded-2xl h-fit overflow-hidden'><Image src={video} alt='' /></div>
+  <div className='w-1/2  rounded-2xl h-[450px]  overflow-hidden'><Image className='w-full  ' src={sec} alt='' /></div>
 </div>
 
 
@@ -304,14 +308,14 @@ export default function Main() {
 {/* 3 */}
 
 
-<div className={`w-full flex items-center ${meet===3?`flex `:` hidden `} justify-between p-[3%] rounded-3xl bg-white `} >
+<div className={`w-full flex items-center shadow-md ${meet===3?`flex `:` hidden `} justify-between p-[3%] rounded-3xl bg-white `} >
   <div className='w-1/2 p-[2%]'>
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Lead Researcher</h1>
   <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
   <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
   </div>
-  <div className='w-1/2  rounded-2xl h-fit overflow-hidden'><Image src={video} alt='' /></div>
+  <div className='w-1/2  rounded-2xl h-[450px] overflow-hidden '><Image className=' w-full  ' src={third} alt='' /></div>
 </div>
 
 
@@ -319,14 +323,14 @@ export default function Main() {
 {/* 4 */}
 
 
-<div className={`w-full flex items-center  ${meet===4?`flex `:` hidden `} justify-between p-[3%] rounded-3xl bg-white `} >
+<div className={`w-full flex items-center shadow-md ${meet===4?`flex `:` hidden `} justify-between p-[3%] rounded-3xl bg-white `} >
   <div className='w-1/2 p-[2%]'>
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Copywriter</h1>
   <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we{"’"}ll find the most relevant AM to lead your project.</p>
   <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
   </div>
-  <div className='w-1/2  rounded-2xl h-fit overflow-hidden'><Image src={video} alt='' /></div>
+  <div className='w-1/2  rounded-2xl h-[450px] overflow-hidden'><Image  className='w-full' src={four} alt='' /></div>
 </div>
 
 
@@ -334,25 +338,58 @@ export default function Main() {
 {/* 5 */}
 
 
-<div className={`w-full flex items-center  ${meet===5?` flex `:` hidden `} justify-between p-[3%] rounded-3xl bg-white `} >
+<div className={`w-full flex items-center shadow-md ${meet===5?` flex `:` hidden `} justify-between p-[3%] rounded-3xl bg-white `} >
   <div className='w-1/2 p-[2%]'>
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Email Tech Expert</h1>
   <p className='text-2xl leading-10 opacity-70'>Account managers take care of every need you might have and outline the objectives to launch a successful campaign. With an industry pro in every niche, we’ll find the most relevant AM to lead your project.</p>
   <div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Discover details</h1></div>
   </div>
-  <div className='w-1/2  rounded-2xl h-fit overflow-hidden'><Image src={video} alt='' /></div>
+  <div className='w-1/2  rounded-2xl h-[450px] overflow-hidden'><Image className='w-full' src={five} alt='' /></div>
 </div>
 
 
 </div>
 
 </div>
-<div className='py-20 px-[5%]'>
+{/* <div className='py-20 px-[5%]'>
   <h1 className='max-sm:text-xl text-3xl font-semibold text-orange-600 leading-[40px] text-center'>Ready to Scale Your Sales?</h1>
   <h1 className='max-sm:text-3xl text-6xl  py-5 font-semibold leading-[70px] text-center'>Let CloserGod drive qualified leads straight to your pipeline. Contact us today to unlock your business{"'"}s full potential!</h1>
   <div className='w-40 cursor-pointer hover:opacity-80 md:mt-10 py-2 px-2 rounded-xl mx-auto bg-orange-600 text-white text-center font-semibold text-xl'>BOOK A CALL</div>
-</div>
+</div> */}
+<div id='1' className='bg-[--background]  relative  py-20 -z-10 px-[5%] '>
+    
+    <div className="  absolute element -top-2 left-10  lg:-top-10 lg:left-32 w-16 h-16 lg:w-44 lg:h-44 bg-gradient-to-br from-orange-500/20 to-orange-600 shadow-orange-600 shadow-md rounded-full " />
+    <div className=" absolute -top-16 -left-24 lg:-top-32 lg:-left-52 w-40 h-40 lg:w-96 lg:h-96 bg-white rounded-full opacity-65 shadow-md" />
+    <div className=" max-md:hidden element absolute  -top-40 right-0 w-64 h-64 lg:w-72 lg:h-72 b bg-gradient-to-br from-black to-white border-2 border-white rounded-full opacity-10 shadow-md" />
+    <div className="relative text-center space-y-8">
+            <div className="space-y-4">
+              <p  className="text-orange-500 font-semibold ">Ready to Scale Your Sales?</p>
+              <h1 className="text-4xl md:text-[4.5rem]  font-bold md:leading-[82px] tracking-tight">
+              Let CloserGod drive  
+                <br />
+                qualified leads straight
+                <br />
+                to your pipeline.
+              </h1>
+            </div>
+            <p className="text-gray-600 max-sm:px-4 max-sm:-mt-4 max-w-3xl lg:w-[600px] mx-auto md:text-lg">
+            Contact us today to unlock your business{"'"}s full potential!
+            </p>
+            <div className="px-4">
+           
+            </div>
+          </div>
+          
+          
+    
+    </div>
+    <div className='  w-full z-0 relative -mt-20 pb-20 flex justify-center'>
+          <button className="bg-orange-600 max-sm:w-full  max-sm:mx-2  hover:bg-opacity-80 text-white rounded-md text-lg font-semibold px-10 py-4">
+              Get a quote
+            </button>
+          </div>
+
 </div>
     
   )

@@ -1,17 +1,14 @@
 'use client'
 import React from 'react'
-import marque1 from '../../public/marque/marque1.svg';
-import marque2 from '../../public/marque/marque2.svg';
-import marque3 from '../../public/marque/marque3.svg';
-import marque4 from '../../public/marque/marque4.svg';
-import marque5 from '../../public/marque/marque5.svg';
-import marque6 from '../../public/marque/marque6.svg';
-import marque7 from '../../public/marque/marque7.svg';
-import marque8 from '../../public/marque/marque8.svg';
-import marque9 from '../../public/marque/marque8.svg';
-import marque10 from '../../public/marque/marque10.svg';
-import marque11 from '../../public/marque/marque11.svg';
-import marque12 from '../../public/marque/marque12.svg';
+import marque1 from '../../public/marque/Actuate logo.jpg';
+import marque2 from '../../public/marque/cisco logo.jpg';
+import marque3 from '../../public/marque/microsoft_logo.jpg';
+import marque4 from '../../public/marque/reliance_logo.jpg';
+import marque5 from '../../public/marque/salesforce_logo (1).jpg';
+import marque6 from '../../public/marque/swiggy_in_logo.jpg';
+import marque7 from '../../public/marque/tech_mahindra_logo.jpg';
+import marque8 from '../../public/marque/zoho_logo.jpg';
+
 import Image from 'next/image';
 
 import "./style.css";
@@ -45,18 +42,7 @@ export default function Marque() {
           <div className=" marquee__item grayscale-[100%] hover:grayscale-0 opacity-50 hover:opacity-100">
             <Image height={35} src={marque8} alt="" />
           </div>
-          <div className=" marquee__item grayscale-[100%] hover:grayscale-0 opacity-50 hover:opacity-100">
-            <Image height={35} src={marque9} alt="" />
-          </div>
-          <div className=" marquee__item grayscale-[100%] hover:grayscale-0 opacity-50 hover:opacity-100">
-            <Image height={35} src={marque10} alt="" />
-          </div>
-          <div className=" marquee__item grayscale-[100%] hover:grayscale-0 opacity-50 hover:opacity-100">
-            <Image height={35} src={marque11} alt="" />
-          </div>
-          <div className=" marquee__item grayscale-[100%] hover:grayscale-0 opacity-50 hover:opacity-100">
-            <Image height={35} src={marque12} alt="" />
-          </div>
+       
   
         </ul>
 
@@ -85,18 +71,7 @@ export default function Marque() {
           <div className=" marquee__item grayscale-[100%] hover:grayscale-0 opacity-50 hover:opacity-100">
             <Image height={35} src={marque8} alt="" />
           </div>
-          <div className=" marquee__item grayscale-[100%] hover:grayscale-0 opacity-50 hover:opacity-100">
-            <Image height={35} src={marque9} alt="" />
-          </div>
-          <div className=" marquee__item grayscale-[100%] hover:grayscale-0 opacity-50 hover:opacity-100">
-            <Image height={35} src={marque10} alt="" />
-          </div>
-          <div className=" marquee__item grayscale-[100%] hover:grayscale-0 opacity-50 hover:opacity-100">
-            <Image height={35} src={marque11} alt="" />
-          </div>
-          <div className=" marquee__item grayscale-[100%] hover:grayscale-0 opacity-50 hover:opacity-100">
-            <Image height={35} src={marque12} alt="" />
-          </div>
+          
         </ul>
       </div>
    
