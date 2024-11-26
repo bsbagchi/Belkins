@@ -52,18 +52,18 @@ export default function Navbar() {
           <Link className="hover:text-orange-600" href={'#4'}>
             <li>INDUSTRIES</li>
           </Link>
-          <Link className="hover:text-orange-600" href={'#5'}>
+          <Link className="hover:text-orange-600" href={'#6'}>
             <li>WHY CLOSERGOD</li>
           </Link>
-          <Link className="hover:text-orange-600" href={'#6'}>
+          <Link className="hover:text-orange-600" href={'#footer'}>
             <li>CONTACT US</li>
           </Link>
         </ul>
       </nav>
 
-      <button className="bg-orange-600 hover:bg-opacity-80 font-semibold text-sm h-10 w-32 items-center text-center rounded-md text-white">
+      <Link href='https://calendly.com/abhishek-07x2/30min?month=2024-11' target='target'><button className="bg-orange-600 hover:bg-opacity-80 font-semibold text-sm h-10 w-32 items-center text-center rounded-md text-white">
         Book a call
-      </button>
+      </button></Link>
 
       {/* Sidebar Menu */}
       <div
@@ -93,12 +93,12 @@ export default function Navbar() {
             </Link>
           </li>
           <li onClick={() => setSidebar(!sidebar)}>
-            <Link className="hover:text-orange-600" href={'#5'}>
+            <Link className="hover:text-orange-600" href={'#6'}>
               WHY CLOSERGOD
             </Link>
           </li>
           <li onClick={() => setSidebar(!sidebar)}>
-            <Link className="hover:text-orange-600" href={'#6'}>
+            <Link className="hover:text-orange-600" href={'#footer'}>
               CONTACT US
             </Link>
           </li>

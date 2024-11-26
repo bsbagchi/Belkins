@@ -19,9 +19,9 @@ export default function Footer() {
           <Image width={100} src={logo} alt='' />
         </div>
         <ul className='space-y-2 opacity-70 text-lg'>
-          <li>+1 302-803-5506</li>
-          <li>sales@belkins.io</li>
-          <li>press@belkins.io</li>
+          <Link href='tel:+919660657811'><li>+91 96606 57811</li></Link>
+         <Link href='mailto:sales@closergod.com'> <li>sales@closergod.com</li></Link>
+       <Link href='mailto:info@closergod.com'> <li>info@closergod.com</li></Link>
         </ul>
         <div className='flex gap-3 pt-5'>
           <div className='w-10 h-10 rounded-full flex items-center justify-center bg-black bg-opacity-5 hover:bg-opacity-10 group'>
@@ -59,13 +59,13 @@ export default function Footer() {
       <div className='flex flex-col items-center'>
         <ul className='space-y-2 text-lg'>
           <li className='opacity-60 hover:text-orange-600 hover:opacity-100'>
-            <Link href='#1'>INDUSTRIES</Link>
+            <Link href='#4'>INDUSTRIES</Link>
           </li>
           <li className='opacity-60 hover:text-orange-600 hover:opacity-100'>
-            <Link href='#2'>WHY CLOSERGOD</Link>
+            <Link href='#6'>WHY CLOSERGOD</Link>
           </li>
           <li className='opacity-60 hover:text-orange-600 hover:opacity-100'>
-            <Link href='#3'>CONTACT US</Link>
+            <Link href='#footer'>CONTACT US</Link>
           </li>
         </ul>
       </div>

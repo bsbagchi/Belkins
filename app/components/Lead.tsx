@@ -70,10 +70,10 @@ export default function Lead() {
           ))}
           <div className="relative w-[350px] flex flex-col bg-gradient-to-tr from-amber-300 to-white bg-opacity-30 overflow-hidden h-[300px] max-sm:w-[320px] max-sm:h-[270px] justify-center rounded-2xl p-5 shadow-md transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
             <h2 className='font-semibold text-[1.5rem] text-center leading-10'>Unleash your sales potential with our lead generation services</h2>
-            <button className='w-36 mx-auto h-10 flex justify-between px-6 rounded-xl mt-4 items-center bg-white transition-all duration-300 ease-in-out hover:bg-orange-600 hover:text-white group'>
+            <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><button className='w-36 mx-auto h-10 flex justify-between px-6 rounded-xl mt-4 items-center bg-white transition-all duration-300 ease-in-out hover:bg-orange-600 hover:text-white group'>
               <span>Book a call</span>
               <span className='text-2xl rotate-90 transition-transform duration-300 ease-in-out group-hover:rotate-[270deg]'>^</span>
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>
