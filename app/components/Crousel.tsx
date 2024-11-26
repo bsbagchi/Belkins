@@ -62,7 +62,7 @@ export default function Crousel() {
           className={`pl-1 md:px-[5%] py-8 flex min-w-max max-sm:gap-5 md:gap-10  `}
         >
           {/* 1 */}
-          <div className='lg:p-6 rounded-3xl  overflow-hidden   max-sm:h-[450px] h-[470px]  max-sm:w-[330px] md:w-[370px] lg:w-[70vw] bg-white snap-center'>
+          <div className='lg:p-6 rounded-3xl  overflow-hidden md:h-auto pb-3  max-sm:h-[450px] h-[470px]  max-sm:w-[330px] md:w-[370px] lg:w-[70vw] bg-white snap-center'>
           
             <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden max-sm:h-[200px]  md:h-[200px] lg:h-[350px]   lg:w-1/2'>
                 <Image className='object-cover' src={crousel1} alt=''/>
@@ -89,7 +89,7 @@ export default function Crousel() {
           {/* 2 */}
 
 
-          <div className='lg:p-6 rounded-3xl  overflow-hidden   max-sm:h-[450px] h-[470px]  max-sm:w-[330px] md:w-[370px] lg:w-[70vw] bg-white snap-center'>
+          <div className='lg:p-6 rounded-3xl  overflow-hidden md:h-auto pb-3   max-sm:h-[450px] h-[470px]  max-sm:w-[330px] md:w-[370px] lg:w-[70vw] bg-white snap-center'>
           
           <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden max-sm:h-[200px]  md:h-[200px] lg:h-[350px]   lg:w-1/2'>
               <Image className='object-cover' src={crousel2} alt=''/>
@@ -116,7 +116,7 @@ export default function Crousel() {
 
 {/* 3 */}
 
-<div className='lg:p-6 rounded-3xl  overflow-hidden   max-sm:h-[450px] h-[470px]  max-sm:w-[330px] md:w-[370px] lg:w-[70vw] bg-white snap-center'>
+<div className='lg:p-6 rounded-3xl  overflow-hidden   max-sm:h-[450px] md:h-auto pb-3 h-[470px]  max-sm:w-[330px] md:w-[370px] lg:w-[70vw] bg-white snap-center'>
           
             <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden max-sm:h-[200px]  md:h-[200px] lg:h-[350px]   lg:w-1/2'>
                 <Image className='object-cover' src={crousel3} alt=''/>
@@ -144,7 +144,7 @@ export default function Crousel() {
 
 {/* 4 */}
 
-<div className='lg:p-6 rounded-3xl  overflow-hidden   max-sm:h-[450px] h-[470px]  max-sm:w-[330px] md:w-[370px] lg:w-[70vw] bg-white snap-center'>
+<div className='lg:p-6 rounded-3xl  overflow-hidden   max-sm:h-[450px] md:h-auto pb-3 h-[470px]  max-sm:w-[330px] md:w-[370px] lg:w-[70vw] bg-white snap-center'>
           
             <div className='flex justify-center iteams-center  lg:float-end rounded-xl overflow-hidden max-sm:h-[200px]  md:h-[200px] lg:h-[350px]   lg:w-1/2'>
                 <Image className='object-cover' src={crousel4} alt=''/>
@@ -175,7 +175,7 @@ export default function Crousel() {
           </div>
           
       </div>
-      <div className='flex  justify-between max-sm:-mt-20 -mt-10 lg:hidden'>
+      <div className='flex  justify-between max-sm:-mt-10 -mt-5 lg:hidden'>
             <button  onClick={handleLeftClick} className="h-12 w-12 md:h-20 md:w-20 m-4 rounded-full border-2"><p className=' font-bold text-3xl'>{'<'}</p></button>
             <button onClick={handleRightClick} className="h-12 w-12 md:h-20 md:w-20 m-4 rounded-full border-2"><p className=' font-bold text-3xl'>{'>'}</p></button>
             </div>
