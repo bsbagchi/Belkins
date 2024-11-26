@@ -311,7 +311,7 @@ export default function Main() {
   <p className='text-2xl leading-10 opacity-70'>Our SDRs are the frontline communicators, identifying key prospects and initiating meaningful conversations. They’re experts at understanding client needs, qualifying leads, and setting the stage for successful partnerships. With a keen eye for detail and a knack for relationship building, our SDRs ensure every lead is a valuable connection.  </p>
   <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
-  <div className='  rounded-2xl   overflow-hidden'><Image className='h-[450px]  ' src={sec} alt='' /></div>
+  <div className='w-1/2  rounded-2xl   overflow-hidden'><Image className='h-[450px]  ' src={sec} alt='' /></div>
 </div>
 
 
