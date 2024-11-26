@@ -14,6 +14,8 @@ import recruite from '../../public/you industry/weserve/Outstaffing.svg';
 import saas from '../../public/you industry/weserve/Saas.svg';
 import telecom from '../../public/you industry/weserve/telecom.svg';
 import clutch from '../../public/you industry/weserve/clutch.BZMOR0o1.svg';
+import awardicon1 from '../../public/award/g2.BiNH7ECW.svg';
+import awardicon2 from '../../public/award/upcity.Dk3AHR5R.svg';
 
 export default function Weserve() {
   const sectors = [
@@ -68,7 +70,7 @@ export default function Weserve() {
     {
       icon: media,
       title: "Media production",
-      description: "Fill your sales pipeline with selected media production leads and get dozens of appointments with Belkins smart outreach.",
+      description: "Fill your sales pipeline with selected media production leads and get dozens of appointments with CloserGod smart outreach.",
       href: "/media"
     },
     {
@@ -102,13 +104,13 @@ export default function Weserve() {
       platform: "G2",
       score: "4.8",
       reviews: "88",
-      logo: clutch
+      logo: awardicon1
     },
     {
       platform: "Upcity",
       score: "5.0",
       reviews: "61",
-      logo: clutch
+      logo: awardicon2
     }
   ]
 
@@ -117,8 +119,8 @@ export default function Weserve() {
       <div className="text-center mb-16">
         <h1 className="font-semibold text-4xl md:text-[3.5rem] lg:leading-[60px]">Industries we serve</h1>
         <p className=" max-sm:py-2 text-gray-600  md:text-[1.23rem] md:py-3 lg:py-5 opacity-75 leading-snug lg:w-[60%] mx-auto">
-          Leverage Belkins expertise in 50+ industries to target the right audience and acquire qualified B2B leads. 
-          Choose your industry to find out how Belkins optimizes sales for businesses across various markets.
+          Leverage CloserGod expertise in 50+ industries to target the right audience and acquire qualified B2B leads. 
+          Choose your industry to find out how CloserGod optimizes sales for businesses across various markets.
         </p>
         <div className="flex flex-wrap justify-center items-center  gap-4 md:gap-8 mt-8">
           {reviews.map((review) => (

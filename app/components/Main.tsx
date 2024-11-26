@@ -6,6 +6,14 @@ import Link from 'next/link';
 import Marque from './Marque';
 import Crousel from './Crousel';
 import award from '../../public/award/06.png';
+import award1 from '../../public/award/Stevie Award.png';
+import award2 from '../../public/award/g2-leader.png';
+import award3 from '../../public/award/goodfirms-badge.svg';
+import award4 from '../../public/award/manifest.png';
+import award5 from '../../public/award/awardlast.png';
+import awardicon1 from '../../public/award/g2.BiNH7ECW.svg';
+import awardicon2 from '../../public/award/upcity.Dk3AHR5R.svg';
+
 import awardicon from '../../public/award/clutch.CceGGRvz.svg';
 import finance from '../../public/you industry/finance.svg';
 import healthcare from '../../public/you industry/healthcare.svg';
@@ -92,36 +100,36 @@ export default function Main() {
           
          {/* award wining */}
 
-         <div className='lg:flex items-center w-full justify-between p-[5%]'>
+         <div className='lg:flex items-center w-full justify-between p-[5%] md:p-[7%]'>
           <article className='lg:w-[45%] '>
-            <h1 className='font-bold text-3xl md:text-6xl md:leading-[70px]'>Award-winning<br/>
+            <h1 className='font-bold text-3xl md:text-5xl md:leading-[60px]'>Award-winning<br/>
             B2B sales agency</h1>
-            <p className=' md:text-2xl md:leading-8 py-4 opacity-60'>See what others are saying about Belkins’ B2B lead generation services and how we helped hack their growth.</p>
+            <p className=' md:text-xl md:leading-8 py-4 opacity-60'>See what others are saying about CloserGod’ B2B lead generation services and how we helped hack their growth.</p>
           <div className='flex flex-wrap gap-4 max-lg:hidden justify-between pt-12'>
             <div className="flex gap-4   ">
-              <div><Image className='w-14 h-14' src={awardicon} alt="" /></div>
+              <div><Image className='w-12 h-12' src={awardicon} alt="" /></div>
               <div>
-                <div className="flex text-xl"><h1 className='font-semibold'>Clutch / </h1><p> 4.9 score</p></div>
-                <div className='text-xl opacity-60'>221 reviews</div>
+                <div className="flex text-lg"><h1 className='font-semibold'>Clutch / </h1><p> 4.9 score</p></div>
+                <div className='text-lg opacity-60'>221 reviews</div>
               </div>
             </div>
 
 
-            <div className="flex gap-4   ">
-              <div><Image className='w-14 h-14' src={awardicon} alt="" /></div>
+            <div className="flex gap-4 items-center  ">
+              <div><Image className='w-12 h-12' src={awardicon1} alt="" /></div>
               <div>
-                <div className="flex text-xl"><h1 className='font-semibold'>Clutch / </h1><p> 4.9 score</p></div>
-                <div className='text-xl opacity-60'>221 reviews</div>
+                <div className="flex text-lg"><h1 className='font-semibold'>Clutch / </h1><p> 4.9 score</p></div>
+                <div className='text-lg opacity-60'>221 reviews</div>
               </div>
             </div>
 
 
 
-            <div className="flex gap-4   ">
-              <div><Image className='w-14 h-14' src={awardicon} alt="" /></div>
+            <div className="flex gap-4 items-center  ">
+              <div><Image className='w-12 h-12' src={awardicon2} alt="" /></div>
               <div>
-                <div className="flex text-xl"><h1 className='font-semibold'>Clutch / </h1><p> 4.9 score</p></div>
-                <div className='text-xl opacity-60'>221 reviews</div>
+                <div className="flex text-lg"><h1 className='font-semibold'>Clutch / </h1><p> 4.9 score</p></div>
+                <div className='text-lg opacity-60'>221 reviews</div>
               </div>
             </div>
 
@@ -129,12 +137,12 @@ export default function Main() {
           </div>
           </article>
           <div className='flex lg:w-[50%] lg:py-0 py-10 flex-wrap justify-center gap-2 md:gap-6 '>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[200px] bg-gray-200  hover:bg-white hover:shadow-md '><Image src={award} alt=''/></div>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[200px] bg-gray-200  hover:bg-white hover:shadow-md '><Image src={award} alt=''/></div>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[200px] bg-gray-200  hover:bg-white hover:shadow-md '><Image src={award} alt=''/></div>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[200px] bg-gray-200  hover:bg-white hover:shadow-md '><Image src={award} alt=''/></div>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[200px] bg-gray-200  hover:bg-white hover:shadow-md '><Image src={award} alt=''/></div>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[200px] bg-gray-200  hover:bg-white hover:shadow-md '><Image src={award} alt=''/></div>
+            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award} alt=''/></div>
+            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award1} alt=''/></div>
+            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award2} alt=''/></div>
+            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award3} alt=''/></div>
+            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award4} alt=''/></div>
+            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award5} alt=''/></div>
 
           
             
@@ -156,7 +164,7 @@ export default function Main() {
     <div>
   <h1 className='text-white font-semibold text-4xl md:text-[3.5rem] lg:leading-[60px]'>Your industry,</h1>
   <h1 className='text-orange-600  font-semibold text-4xl md:text-[3.5rem]  md:leading-[60px]'>our tailored solutions</h1>
-  <p className='text-white md:text-[1.23rem] max-sm:py-3 md:py-3 lg:py-5 opacity-75 leading-snug lg:w-[60%]'>Leverage Belkins expertise in 50+ industries to target the right audience  and acquire qualified B2B leads. Choose your industry to find out how Belkins optimizes sales for businesses across various markets.</p>
+  <p className='text-white md:text-[1.23rem] max-sm:py-3 md:py-3 lg:py-5 opacity-75 leading-snug lg:w-[60%]'>Leverage CloserGod expertise in 50+ industries to target the right audience  and acquire qualified B2B leads. Choose your industry to find out how CloserGod optimizes sales for businesses across various markets.</p>
   </div>
   <div className='h-full w-full flex justify-end  '>
   <Link className='max-lg:hidden' href='#serve'><div className='w-64 mt-40  border-[1px] hover:bg-zinc-900 hover:border-zinc-900 text-white text-2xl flex gap-2  rounded-xl py-2 px-2'><h1>See all industries</h1><div className='transfrom rotate-90 w-fit h-fit mr-2'>^</div></div></Link>
@@ -179,7 +187,7 @@ export default function Main() {
 <div id='6' className='lg:flex justify-between p-[5%]'>
 <div>
 
-    <h1 className='text-3xl md:text-6xl font-semibold '>What makes Belkins</h1>
+    <h1 className='text-3xl md:text-6xl font-semibold '>What makes CloserGod</h1>
     <h1 className='text-3xl md:text-6xl py-2 font-semibold text-orange-600'>your #1 choice</h1>
     <Image className="lg:hidden object-cover" src={clutch} alt=""/>
     <div className='py-4'>
@@ -303,7 +311,7 @@ export default function Main() {
   <p className='text-2xl leading-10 opacity-70'>Our SDRs are the frontline communicators, identifying key prospects and initiating meaningful conversations. They’re experts at understanding client needs, qualifying leads, and setting the stage for successful partnerships. With a keen eye for detail and a knack for relationship building, our SDRs ensure every lead is a valuable connection.  </p>
   <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
-  <div className='w-1/2  rounded-2xl h-[450px]  overflow-hidden'><Image className='w-full  ' src={sec} alt='' /></div>
+  <div className='  rounded-2xl   overflow-hidden'><Image className='h-[450px]  ' src={sec} alt='' /></div>
 </div>
 
 

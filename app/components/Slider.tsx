@@ -38,18 +38,18 @@ export default function Slider() {
     <div id='3'>
         <div className="flex  justify-between px-[5%]">
           <div>
-            <h1 className="text-3xl md:text-[3.5rem] font-semibold leading-tight">What Our Client Say About Us</h1>
+            <h1 className="text-3xl md:text-[3rem] font-semibold leading-tight">What Our Client Say About Us</h1>
             <p className='opacity-50 text-xl leading-[40px]'>Exceptional support and results that speak for themselves.</p>
           </div>
           <div className='max-sm:hidden md:hidden lg:flex'>
-            <button  onClick={handleLeftClick} className="h-20 w-20 m-4 rounded-full border-2"><p className=' font-bold text-3xl'>{'<'}</p></button>
-            <button onClick={handleRightClick} className="h-20 w-20 m-4 rounded-full border-2"><p className=' font-bold text-3xl'>{'>'}</p></button>
+            <button  onClick={handleLeftClick} className="h-16 w-16 m-4 rounded-full border-2"><p className=' font-bold text-3xl'>{'<'}</p></button>
+            <button onClick={handleRightClick} className="h-16 w-16 m-4 rounded-full border-2"><p className=' font-bold text-3xl'>{'>'}</p></button>
             </div>
           </div>
        <div ref={scrollContainerRef}  className="overflow-x-scroll scroll-hide snap-x ">
         <div
           
-          className={` px-[5%]  py-20 flex min-w-max max-sm:gap-5 md:gap-10 lg:gap-16 `}
+          className={` px-[5%]  py-10 flex min-w-max max-sm:gap-5 md:gap-10 lg:gap-16 `}
         >
             <div className='bg-white p-[2%] shadow-md rounded-xl h-[400px] max-sm:h-[320px] max-sm:w-[350px]  w-[700px] snap-center'>
                 <h1 className='max-sm:text-2xl text-3xl font-semibold leading-[60px]'>SaaS Services</h1>
