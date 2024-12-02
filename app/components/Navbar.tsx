@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Logo from '../../public/logo.svg';
+import Logo from '../../public/logo.jpg';
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -61,7 +61,7 @@ export default function Navbar() {
         </ul>
       </nav>
 
-      <Link href='https://calendly.com/abhishek-07x2/30min?month=2024-11' target='target'><button className="bg-orange-600 hover:bg-opacity-80 font-semibold text-sm h-10 w-32 items-center text-center rounded-md text-white">
+      <Link href='https://calendly.com/abhishek-closergod/30min' target='target'><button className="bg-orange-600 hover:bg-opacity-80 font-semibold text-sm h-10 w-32 items-center text-center rounded-md text-white">
         Book a call
       </button></Link>
 

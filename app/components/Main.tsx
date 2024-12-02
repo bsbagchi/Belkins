@@ -76,7 +76,7 @@ export default function Main() {
     
     </div>
     <div className='  w-full z-0 relative -mt-20 flex justify-center'>
-          <Link href='https://calendly.com/abhishek-07x2/30min?month=2024-11' target='blank'><button className="bg-orange-600 max-sm:w-full  max-sm:mx-2  hover:bg-opacity-80 text-white rounded-md text-lg font-semibold px-10 py-4">
+          <Link href='https://calendly.com/abhishek-closergod/30min' target='blank'><button className="bg-orange-600 max-sm:w-full  max-sm:mx-2  hover:bg-opacity-80 text-white rounded-md text-lg font-semibold px-10 py-4">
               Get a quote
             </button></Link>
           </div>
@@ -136,13 +136,13 @@ export default function Main() {
 
           </div>
           </article>
-          <div className='flex lg:w-[50%] lg:py-0 py-10 flex-wrap justify-center gap-2 md:gap-6 '>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award} alt=''/></div>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award1} alt=''/></div>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award2} alt=''/></div>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award3} alt=''/></div>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award4} alt=''/></div>
-            <div className='max-sm:w-[160px] max-sm:h-[170px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award5} alt=''/></div>
+          <div className='flex lg:w-[50%] lg:py-0 py-5 flex-wrap justify-center gap-3 md:gap-6 '>
+            <div className='max-sm:w-[155px] max-sm:h-[155px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award} alt=''/></div>
+            <div className='max-sm:w-[155px] max-sm:h-[155px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award1} alt=''/></div>
+            <div className='max-sm:w-[155px] max-sm:h-[155px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award2} alt=''/></div>
+            <div className='max-sm:w-[155px] max-sm:h-[155px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award3} alt=''/></div>
+            <div className='max-sm:w-[155px] max-sm:h-[155px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award4} alt=''/></div>
+            <div className='max-sm:w-[155px] max-sm:h-[155px] w-[200px] rounded-2xl  p-5 h-[180px] bg-gray-200  hover:bg-white hover:shadow-md '><Image className='w-full h-full' src={award5} alt=''/></div>
 
           
             
@@ -159,7 +159,7 @@ export default function Main() {
 
 
 
-<div id='4' className='md:mx-[7%] mx-2 p-[5%] rounded-3xl  md:rounded-[3rem] md:my-10 bg-current opacity-85'>
+<div id='4' className='md:mx-[7%] mx-1 p-[5%] rounded-3xl  md:rounded-[3rem] md:my-10 bg-current opacity-85'>
   <div className='flex'>
     <div>
   <h1 className='text-white font-semibold text-4xl md:text-[3.5rem] lg:leading-[60px]'>Your industry,</h1>
@@ -224,7 +224,7 @@ export default function Main() {
   <Image className='w-52' src={profile} alt='' />
   <h1 className='text-2xl pt-4 font-semibold'>Account manager</h1>
   <p className=' leading-2 opacity-70 text-justify '>Our Account Managers are dedicated to understanding every aspect of your needs and aligning them with our strategies to bring your vision to life. They outline clear objectives, monitor progress, and ensure every campaign aligns with your goals. With deep expertise across various industries, we pair you with an Account Manager who is a true specialist in your niche, ready to lead your project to success.</p>
-  <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+  <Link target='blank' href={'https://calendly.com/abhishek-closergod/30min'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
       </div></div>
 
@@ -238,7 +238,7 @@ export default function Main() {
   <Image className='w-52' src={profile} alt='' />
   <h1 className='text-2xl pt-4 font-semibold'>Sales Development Representative</h1>
   <p className=' leading-2 opacity-70 text-justify'>Our SDRs are the frontline communicators, identifying key prospects and initiating meaningful conversations. They’re experts at understanding client needs, qualifying leads, and setting the stage for successful partnerships. With a keen eye for detail and a knack for relationship building, our SDRs ensure every lead is a valuable connection.</p>
-  <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+  <Link target='blank' href={'https://calendly.com/abhishek-closergod/30min'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
       </div></div>
 
@@ -252,7 +252,7 @@ export default function Main() {
   <Image className='w-52' src={profile} alt='' />
   <h1 className='text-2xl pt-4 font-semibold'>Lead Researcher</h1>
   <p className=' leading-2 opacity-70 text-justify'>Our Lead Researchers are skilled investigators who provide the insights that drive targeted campaigns. From identifying trends to uncovering potential new markets, they use a mix of tools and data analysis to equip your campaign with the intelligence it needs. Their findings ensure we’re always one step ahead, delivering strategies that are rooted in research.</p>
-  <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+  <Link target='blank' href={'https://calendly.com/abhishek-closergod/30min'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
       </div></div>
 
@@ -266,7 +266,7 @@ export default function Main() {
   <Image className='w-52' src={profile} alt='' />
   <h1 className='text-2xl pt-4 font-semibold'>Copywriter</h1>
   <p className=' leading-2 opacity-70 text-justify'>Words have power, and our Copywriters know how to wield it effectively. They craft compelling, impactful content that resonates with your audience, builds brand trust, and drives conversions. Whether it’s a tagline, blog post, or social media update, our Copywriters understand how to deliver the right message with style and clarity.</p>
-  <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+  <Link target='blank' href={'https://calendly.com/abhishek-closergod/30min'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
       </div></div>
 
@@ -283,7 +283,7 @@ export default function Main() {
   <Image className='w-52' src={profile} alt='' />
   <h1 className='text-2xl pt-4 font-semibold'>Account manager</h1>
   <p className=' leading-2 opacity-70 text-justify'>Our Email Tech Experts are the masters of automation and analytics, ensuring every email is perfectly timed and designed to perform. They handle the technical side of email marketing—from segmentation to troubleshooting—so your communications reach the right people at the right time. With a deep understanding of the latest email marketing tools, they help maximize engagement and drive results.</p>
-  <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+  <Link target='blank' href={'https://calendly.com/abhishek-closergod/30min'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
       </div></div>
 
@@ -296,7 +296,7 @@ export default function Main() {
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Account manager</h1>
   <p className='text-2xl leading-10 opacity-70'>Our Account Managers are dedicated to understanding every aspect of your needs and aligning them with our strategies to bring your vision to life. They outline clear objectives, monitor progress, and ensure every campaign aligns with your goals. With deep expertise across various industries, we pair you with an Account Manager who is a true specialist in your niche, ready to lead your project to success.</p>
-  <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+  <Link target='blank' href={'https://calendly.com/abhishek-closergod/30min'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
   <div className='w-1/2  rounded-2xl h-fit overflow-hidden c'><Image className='w-full object-cover h-[450px]' src={first} alt='' /></div>
 </div>
@@ -309,7 +309,7 @@ export default function Main() {
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl   pt-10 leading-[82px] font-semibold'>Sales Development Representative</h1>
   <p className='text-2xl leading-10 opacity-70'>Our SDRs are the frontline communicators, identifying key prospects and initiating meaningful conversations. They’re experts at understanding client needs, qualifying leads, and setting the stage for successful partnerships. With a keen eye for detail and a knack for relationship building, our SDRs ensure every lead is a valuable connection.  </p>
-  <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+  <Link target='blank' href={'https://calendly.com/abhishek-closergod/30min'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
   <div className='w-1/2  rounded-2xl   overflow-hidden'><Image className='h-[450px]  ' src={sec} alt='' /></div>
 </div>
@@ -324,7 +324,7 @@ export default function Main() {
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Lead Researcher</h1>
   <p className='text-2xl leading-10 opacity-70'>Our Lead Researchers are skilled investigators who provide the insights that drive targeted campaigns. From identifying trends to uncovering potential new markets, they use a mix of tools and data analysis to equip your campaign with the intelligence it needs. Their findings ensure we’re always one step ahead, delivering strategies that are rooted in research.</p>
-  <Link target='blank' href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+  <Link target='blank' href={'https://calendly.com/abhishek-closergod/30min'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
   <div className='w-1/2  rounded-2xl h-[450px] overflow-hidden '><Image className=' w-full  ' src={third} alt='' /></div>
 </div>
@@ -354,7 +354,7 @@ export default function Main() {
   <Image className='w-72' src={profile} alt='' />
   <h1 className='text-4xl pt-10 leading-[82px] font-semibold'>Email Tech Expert</h1>
   <p className='text-2xl leading-10 opacity-70'>Our Email Tech Experts are the masters of automation and analytics, ensuring every email is perfectly timed and designed to perform. They handle the technical side of email marketing—from segmentation to troubleshooting—so your communications reach the right people at the right time. With a deep understanding of the latest email marketing tools, they help maximize engagement and drive results.</p>
-  <Link href={'https://calendly.com/abhishek-07x2/30min?month=2024-11'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+  <Link href={'https://calendly.com/abhishek-closergod/30min'}><div className='w-fit pt-4 md:pt-10 flex items-center gap-5 group cursor-pointer' ><div className='h-10 w-10 md:h-16 md:w-16 rounded-full border-[1px] border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-2xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
   </div>
   <div className='w-1/2  rounded-2xl h-[450px] overflow-hidden'><Image className='w-full' src={five} alt='' /></div>
 </div>
@@ -398,7 +398,7 @@ export default function Main() {
     
     </div>
     <div className='  w-full z-0 relative -mt-20 pb-20 flex justify-center'>
-        <Link href='https://calendly.com/abhishek-07x2/30min?month=2024-11' target='blank'><button className="bg-orange-600 max-sm:w-full  max-sm:mx-2  hover:bg-opacity-80 text-white rounded-md text-lg font-semibold px-10 py-4">
+        <Link href='https://calendly.com/abhishek-closergod/30min' target='blank'><button className="bg-orange-600 max-sm:w-full  max-sm:mx-2  hover:bg-opacity-80 text-white rounded-md text-lg font-semibold px-10 py-4">
               Get a quote
             </button></Link>
           </div>

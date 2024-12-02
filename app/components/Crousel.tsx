@@ -81,7 +81,7 @@ export default function Crousel() {
                     </div>
                     
                 </div>
-                <Link href='https://calendly.com/abhishek-07x2/30min?month=2024-11'><div className='pt-4  flex items-center gap-5 group w-fit' ><div className='h-10 w-10 lg:h-12 lg:w-12 rounded-full border-2 border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+                <Link href='https://calendly.com/abhishek-closergod/30min'><div className='pt-4  flex items-center gap-5 group w-fit' ><div className='h-10 w-10 lg:h-12 lg:w-12 rounded-full border-2 border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
             </div>
           </div>
           
@@ -108,7 +108,7 @@ export default function Crousel() {
                   </div>
                   
               </div>
-              <Link href='https://calendly.com/abhishek-07x2/30min?month=2024-11'><div className='pt-4  flex items-center gap-5 group w-fit' ><div className='h-10 w-10 lg:h-12 lg:w-12 rounded-full border-2 border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+              <Link href='https://calendly.com/abhishek-closergod/30min'><div className='pt-4  flex items-center gap-5 group w-fit' ><div className='h-10 w-10 lg:h-12 lg:w-12 rounded-full border-2 border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
           </div>
         </div>
 
@@ -135,7 +135,7 @@ export default function Crousel() {
                     </div>
                     
                 </div>
-                <Link href='https://calendly.com/abhishek-07x2/30min?month=2024-11'><div className='pt-4  flex items-center gap-5 group w-fit' ><div className='h-10 w-10 lg:h-12 lg:w-12 rounded-full border-2 border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+                <Link href='https://calendly.com/abhishek-closergod/30min'><div className='pt-4  flex items-center gap-5 group w-fit' ><div className='h-10 w-10 lg:h-12 lg:w-12 rounded-full border-2 border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
             </div>
           </div>
 
@@ -163,7 +163,7 @@ export default function Crousel() {
                     </div>
                     
                 </div>
-                <Link href='https://calendly.com/abhishek-07x2/30min?month=2024-11'><div className='pt-4  flex items-center gap-5 group w-fit' ><div className='h-10 w-10 lg:h-12 lg:w-12 rounded-full border-2 border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
+                <Link href='https://calendly.com/abhishek-closergod/30min'><div className='pt-4  flex items-center gap-5 group w-fit' ><div className='h-10 w-10 lg:h-12 lg:w-12 rounded-full border-2 border-orange-600 group-hover:bg-orange-200 flex justify-center items-center' ><Image  src={arrow} alt=""/></div><h1 className="font-semibold text-lg md:text-xl group-hover:text-orange-600 ">Book a call</h1></div></Link>
             </div>
           </div>
 
